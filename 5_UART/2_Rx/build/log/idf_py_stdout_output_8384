@@ -1,0 +1,16 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Nidhi\ESP32\5_UART\2_Rx\build\bootloader\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Nidhi/ESP32/5_UART/2_Rx/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/echo.c.obj
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Building C object CMakeFiles/echo.elf.dir/project_elf_src_esp32.c.obj
+[6/8] Linking CXX executable echo.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/5_UART/2_Rx/build/echo.bin
+[8/8] cmd.exe /C "cd /D D:\Nidhi\ESP32\5_UART\2_Rx\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/5_UART/2_Rx/build/partition_table/partition-table.bin D:/Nidhi/ESP32/5_UART/2_Rx/build/echo.bin"
+echo.bin binary size 0x30c00 bytes. Smallest app partition is 0x100000 bytes. 0xcf400 bytes (81%) free.

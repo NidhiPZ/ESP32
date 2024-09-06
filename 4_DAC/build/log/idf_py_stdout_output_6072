@@ -1,0 +1,38 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/dac.c.obj
+In file included from D:/Nidhi/ESP32/3_DAC/main/dac.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/dac.h:16:2: warning: #warning "The legacy DAC driver is deprecated, please use `driver/dac_oneshot.h`, `driver/dac_cosine.h` or `driver/dac_continuous.h` instead" [-Wcpp]
+   16 | #warning "The legacy DAC driver is deprecated, please use `driver/dac_oneshot.h`, `driver/dac_cosine.h` or `driver/dac_continuous.h` instead"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_DAC/main/dac.c: In function 'dac_waveform_task':
+D:/Nidhi/ESP32/3_DAC/main/dac.c:18:9: warning: 'DAC_CHANNEL_1' is deprecated: please use 'DAC_CHAN_0' instead [-Wdeprecated-declarations]
+   18 |         dac_output_voltage(DAC_CHANNEL, value);
+      |         ^~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/dac_types_legacy.h:14,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/dac.h:13:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/dac_types.h:10:5: note: declared here
+   10 |     DAC_CHANNEL_1 __attribute__((deprecated("please use 'DAC_CHAN_0' instead"))) = 0,    /*!< Alias of 'DAC_CHAN_0', now the channel index start from '0' */
+      |     ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/3_DAC/main/dac.c:24:19: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+   24 |         if (value >= 256)
+      |                   ^~
+D:/Nidhi/ESP32/3_DAC/main/dac.c: In function 'app_main':
+D:/Nidhi/ESP32/3_DAC/main/dac.c:37:5: warning: 'DAC_CHANNEL_1' is deprecated: please use 'DAC_CHAN_0' instead [-Wdeprecated-declarations]
+   37 |     dac_output_enable(DAC_CHANNEL);
+      |     ^~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/dac_types.h:10:5: note: declared here
+   10 |     DAC_CHANNEL_1 __attribute__((deprecated("please use 'DAC_CHAN_0' instead"))) = 0,    /*!< Alias of 'DAC_CHAN_0', now the channel index start from '0' */
+      |     ^~~~~~~~~~~~~
+[2/9] Linking C static library esp-idf\main\libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_DAC\build\bootloader\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Nidhi/ESP32/3_DAC/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable dac.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/3_DAC/build/dac.bin
+[7/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_DAC\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/3_DAC/build/partition_table/partition-table.bin D:/Nidhi/ESP32/3_DAC/build/dac.bin"
+dac.bin binary size 0x2c300 bytes. Smallest app partition is 0x100000 bytes. 0xd3d00 bytes (83%) free.

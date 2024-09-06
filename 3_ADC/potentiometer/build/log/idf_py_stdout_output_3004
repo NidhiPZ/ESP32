@@ -1,0 +1,880 @@
+*��������RNG early entropy source...[0m
+[0;32�[0;32mI (13) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep  3 2024 16:55:03[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.0[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09b60h ( 39776) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019b88 vaddr=3ffb0000 size=0230ch (  8972) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001be9c vaddr=40080000 size=0417ch ( 16764) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14500h ( 83200) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034528 vaddr=4008417c size=088a4h ( 34980) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (183) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     main[0m
+[0;32mI (190) app_init: App version:      1[0m
+[0;32mI (194) app_init: Compile time:     Sep  3 2024 16:52:54[0m
+[0;32mI (200) app_init: ELF file SHA256:  45d98dbfc...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (215) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (220) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2BE0 len 0002D420 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008CA20 len 000135E0 (77 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\3_ADC\potentiometer\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: In function 'app_main':
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:19:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   19 |     adc2_config_channel_atten(ADC_CHANNEL, ADC_ATTEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:15:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable main.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_ADC\potentiometer\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/3_ADC/potentiometer/build/partition_table/partition-table.bin D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin"
+main.bin binary size 0x2cdf0 bytes. Smallest app partition is 0x100000 bytes. 0xd3210 bytes (82%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/componesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 main.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Compressed 183792 bytes to 97798...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c710... (33 %)
+Writing at 0x000220c5... (50 %)
+Writing at 0x00027ccb... (66 %)
+Writing at 0x0002f55a... (83 %)
+Writing at 0x000369fe... (100 %)
+Wrote 183792 bytes (97798 compressed) at 0x00010000 in 3.0 seconds (effective 489.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+ents/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/3_ADC/potentiometer/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"
+Done
+*�early entropy source...[0m
+[0;32mI (39) boot: P[0;32mI (13) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep  3 2024 16:55:03[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.0[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09b60h ( 39776) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019b88 vaddr=3ffb0000 size=0230ch (  8972) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001be9c vaddr=40080000 size=0417ch ( 16764) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14500h ( 83200) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034528 vaddr=4008417c size=088a4h ( 34980) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (183) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     main[0m
+[0;32mI (190) app_init: App version:      1[0m
+[0;32mI (194) app_init: Compile time:     Sep  3 2024 16:52:54[0m
+[0;32mI (200) app_init: ELF file SHA256:  ebc6215d3...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (215) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (220) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2BE0 len 0002D420 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008CA20 len 000135E0 (77 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+ADC Reading: 982
+ADC Reading: 1769
+ADC Reading: 786
+ADC Reading: 935
+ADC Reading: 960
+ADC Reading: 954
+ADC Reading: 950
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\3_ADC\potentiometer\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: In function 'app_main':
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:19:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   19 |     adc2_config_channel_atten(ADC_CHANNEL, ADC_ATTEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:15:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable main.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_ADC\potentiometer\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/3_ADC/potentiometer/build/partition_table/partition-table.bin D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin"
+main.bin binary size 0x2cdf0 bytes. Smallest app partition is 0x100000 bytes. 0xd3210 bytes (82%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/componesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 main.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Compressed 183792 bytes to 97798...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c70a... (33 %)
+Writing at 0x000220c6... (50 %)
+Writing at 0x00027ccb... (66 %)
+Writing at 0x0002f55a... (83 %)
+Writing at 0x000369fe... (100 %)
+Wrote 183792 bytes (97798 compressed) at 0x00010000 in 3.0 seconds (effective 488.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+ents/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/3_ADC/potentiometer/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"
+Done
++������RNG early entropy source...[0m
+[0;32mI (3[0;32mI (13) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep  3 2024 16:55:03[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.0[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09b60h ( 39776) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019b88 vaddr=3ffb0000 size=0230ch (  8972) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001be9c vaddr=40080000 size=0417ch ( 16764) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14500h ( 83200) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034528 vaddr=4008417c size=088a4h ( 34980) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (183) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     main[0m
+[0;32mI (190) app_init: App version:      1[0m
+[0;32mI (194) app_init: Compile time:     Sep  3 2024 16:52:54[0m
+[0;32mI (200) app_init: ELF file SHA256:  d26c5caec...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (215) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (220) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2BE0 len 0002D420 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008CA20 len 000135E0 (77 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+ADC Reading: 903
+ADC Reading: 974
+ADC Reading: 974
+ADC Reading: 974
+ADC Reading: 972
+ADC Reading: 827
+ADC Reading: 1064
+ADC Reading: 259
+ADC Reading: 467
+ADC Reading: 646
+ADC Reading: 671
+ADC Reading: 511
+ADC Reading: 502
+ADC Reading: 491
+ADC Reading: 467
+ADC Reading: 153
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 438
+ADC Reading: 495
+ADC Reading: 622
+ADC Reading: 704
+ADC Reading: 960
+ADC Reading: 1017
+ADC Reading: 1018
+ADC Reading: 1018
+ADC Reading: 1020
+ADC Reading: 1019
+ADC Reading: 1019
+ADC Reading: 1020
+ADC Reading: 1018
+ADC Reading: 1019
+ADC Reading: 1019
+ADC Reading: 1020
+ADC Reading: 1021
+ADC Reading: 1021
+ADC Reading: 1019
+ADC Reading: 1022
+ADC Reading: 1021
+ADC Reading: 1020
+ADC Reading: 1020
+ADC Reading: 1022
+ADC Reading: 1020
+ADC Reading: 1021
+ADC Reading: 1021
+ADC Reading: 1022
+ADC Reading: 1021
+ADC Reading: 1019
+ADC Reading: 1020
+ADC Reading: 1021
+ADC Reading: 1018
+ADC Reading: 1019
+ADC Reading: 1019
+ADC Reading: 1022
+ADC Reading: 1022
+ADC Reading: 1021
+ADC Reading: 1020
+ADC Reading: 1019
+ADC Reading: 1021
+ADC Reading: 1019
+ADC Reading: 1022
+ADC Reading: 1019
+ADC Reading: 1020
+ADC Reading: 1021
+ADC Reading: 1021
+ADC Reading: 1020
+ADC Reading: 1022
+ADC Reading: 1022
+ADC Reading: 1021
+ADC Reading: 1020
+ADC Reading: 1021
+ADC Reading: 1021
+ADC Reading: 1014
+ADC Reading: 1013
+ADC Reading: 1009
+ADC Reading: 1009
+ADC Reading: 1005
+ADC Reading: 752
+ADC Reading: 390
+ADC Reading: 1074
+ADC Reading: 979
+ADC Reading: 1177
+ADC Reading: 1112
+ADC Reading: 1296
+ADC Reading: 1366
+ADC Reading: 1705
+ADC Reading: 1442
+ADC Reading: 1395
+ADC Reading: 1871
+ADC Reading: 1874
+ADC Reading: 1860
+ADC Reading: 1879
+ADC Reading: 1874
+ADC Reading: 1879
+ADC Reading: 1414
+ADC Reading: 1605
+ADC Reading: 859
+ADC Reading: 1531
+ADC Reading: 1248
+ADC Reading: 1628
+ADC Reading: 1621
+ADC Reading: 1495
+ADC Reading: 1521
+ADC Reading: 1483
+ADC Reading: 1471
+ADC Reading: 1478
+ADC Reading: 1466
+ADC Reading: 1458
+ADC Reading: 1461
+ADC Reading: 1472
+ADC Reading: 1475
+ADC Reading: 1493
+ADC Reading: 1488
+ADC Reading: 1761
+ADC Reading: 1747
+ADC Reading: 1744
+ADC Reading: 1747
+ADC Reading: 1750
+ADC Reading: 1747
+ADC Reading: 1744
+ADC Reading: 1742
+ADC Reading: 1738
+ADC Reading: 1734
+ADC Reading: 1743
+ADC Reading: 1744
+ADC Reading: 1743
+ADC Reading: 1744
+ADC Reading: 1744
+ADC Reading: 1744
+ADC Reading: 1744
+ADC Reading: 1749
+ADC Reading: 1747
+ADC Reading: 1745
+ADC Reading: 1746
+ADC Reading: 1750
+ADC Reading: 1751
+ADC Reading: 1749
+ADC Reading: 1753
+ADC Reading: 1750
+ADC Reading: 1748
+ADC Reading: 1746
+ADC Reading: 1748
+ADC Reading: 1751
+ADC Reading: 1750
+ADC Reading: 1751
+ADC Reading: 1748
+ADC Reading: 1751
+ADC Reading: 1751
+ADC Reading: 1750
+ADC Reading: 1749
+ADC Reading: 1747
+ADC Reading: 1747
+ADC Reading: 1749
+ADC Reading: 1750
+ADC Reading: 1750
+ADC Reading: 1755
+ADC Reading: 1753
+ADC Reading: 1753
+ADC Reading: 1755
+ADC Reading: 1753
+ADC Reading: 1757
+ADC Reading: 1755
+ADC Reading: 1755
+ADC Reading: 1758
+ADC Reading: 1754
+ADC Reading: 1753
+ADC Reading: 1753
+ADC Reading: 1754
+ADC Reading: 1755
+ADC Reading: 1759
+ADC Reading: 1755
+ADC Reading: 1754
+ADC Reading: 1755
+ADC Reading: 1759
+ADC Reading: 1758
+ADC Reading: 1757
+ADC Reading: 1754
+ADC Reading: 1754
+ADC Reading: 1616
+ADC Reading: 1535
+ADC Reading: 1649
+ADC Reading: 1655
+ADC Reading: 1665
+ADC Reading: 1679
+ADC Reading: 1678
+ADC Reading: 1685
+ADC Reading: 1579
+ADC Reading: 1139
+ADC Reading: 1600
+ADC Reading: 1712
+ADC Reading: 944
+ADC Reading: 1086
+ADC Reading: 1151
+ADC Reading: 990
+ADC Reading: 718
+ADC Reading: 448
+ADC Reading: 250
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 0
+ADC Reading: 509
+ADC Reading: 655
+ADC Reading: 1150
+ADC Reading: 1147
+ADC Reading: 1149
+ADC Reading: 1149
+ADC Reading: 1150
+ADC Reading: 1150
+ADC Reading: 1152
+ADC Reading: 1151
+ADC Reading: 1152
+ADC Reading: 1153
+ADC Reading: 1152
+ADC Reading: 1151
+ADC Reading: 1152
+ADC Reading: 1153
+ADC Reading: 1153
+ADC Reading: 1152
+ADC Reading: 1152
+ADC Reading: 1152
+ADC Reading: 1152
+ADC Reading: 1154
+ADC Reading: 1151
+ADC Reading: 1154
+ADC Reading: 1154
+ADC Reading: 1159
+ADC Reading: 1152
+ADC Reading: 1159
+ADC Reading: 1153
+ADC Reading: 1155
+ADC Reading: 1157
+ADC Reading: 1160
+ADC Reading: 1158
+ADC Reading: 1159
+ADC Reading: 1160
+ADC Reading: 1160
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1160
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1162
+ADC Reading: 1158
+ADC Reading: 1155
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1161
+ADC Reading: 1158
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1159
+ADC Reading: 1163
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1158
+ADC Reading: 1157
+ADC Reading: 1161
+ADC Reading: 1160
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1160
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1162
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1160
+ADC Reading: 1161
+ADC Reading: 1159
+ADC Reading: 1158
+ADC Reading: 1158
+ADC Reading: 1162
+ADC Reading: 1162
+ADC Reading: 1163
+ADC Reading: 1159
+ADC Reading: 1162
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1162
+ADC Reading: 1161
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1159
+ADC Reading: 1158
+ADC Reading: 1160
+ADC Reading: 1161
+ADC Reading: 1161
+ADC Reading: 1166
+ADC Reading: 1160
+ADC Reading: 1161
+ADC Reading: 1162
+ADC Reading: 1161
+ADC Reading: 1159
+ADC Reading: 1158
+ADC Reading: 1162
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1158
+ADC Reading: 1162
+ADC Reading: 1157
+ADC Reading: 1159
+ADC Reading: 1160
+ADC Reading: 1162
+ADC Reading: 1162
+ADC Reading: 1159
+ADC Reading: 1161
+ADC Reading: 1165
+ADC Reading: 1163
+ADC Reading: 1162
+ADC Reading: 1160
+ADC Reading: 1163
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\3_ADC\potentiometer\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: In function 'app_main':
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:19:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   19 |     adc2_config_channel_atten(ADC_CHANNEL, ADC_ATTEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:15:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable main.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_ADC\potentiometer\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/3_ADC/potentiometer/build/partition_table/partition-table.bin D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin"
+main.bin binary size 0x2cdf0 bytes. Smallest app partition is 0x100000 bytes. 0xd3210 bytes (82%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/componesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 main.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x0003cfff...
+Compressed 183792 bytes to 97798...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c709... (33 %)
+Writing at 0x000220c5... (50 %)
+Writing at 0x00027cc9... (66 %)
+Writing at 0x0002f557... (83 %)
+Writing at 0x000369f9... (100 %)
+Wrote 183792 bytes (97798 compressed) at 0x00010000 in 3.0 seconds (effective 487.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+ents/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/3_ADC/potentiometer/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"
+Done
+� Enabling RNG early entropy source...[0m
+[0�[0;32mI (13) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep  3 2024 16:55:03[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.0[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09b60h ( 39776) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019b88 vaddr=3ffb0000 size=0230ch (  8972) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001be9c vaddr=40080000 size=0417ch ( 16764) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14500h ( 83200) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034528 vaddr=4008417c size=088a4h ( 34980) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (183) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     main[0m
+[0;32mI (190) app_init: App version:      1[0m
+[0;32mI (194) app_init: Compile time:     Sep  3 2024 16:52:54[0m
+[0;32mI (200) app_init: ELF file SHA256:  1f5c0f094...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (215) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (220) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2BE0 len 0002D420 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008CA20 len 000135E0 (77 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\3_ADC\potentiometer\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+ccache C:\Users\DNK133\.espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.3\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/Nidhi/ESP32/3_ADC/potentiometer/build/config -ID:/Nidhi/ESP32/3_ADC/potentiometer/main -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/platform_include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/include/freertos -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/esp_additions/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include/soc -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include/soc/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/dma/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/ldo/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/. -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/heap/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/log/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/platform_port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/include/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/soc -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/include/private -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/deprecated_include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include/apps -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include/apps/sntp -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/lwip/src/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/freertos/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include/arch -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include/sys -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gpio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_pm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/mbedtls/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/mbedtls/library -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/esp_crt_bundle/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/app_update/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/bootloader_flash/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_partition/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_mm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/pthread/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_timer/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gptimer/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_ringbuf/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_uart/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/vfs/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/app_trace/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_event/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_flash/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_pcnt/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_spi/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_mcpwm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ana_cmpr/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2s/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/sdmmc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdmmc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdspi/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_dac/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_rmt/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_tsens/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2c/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ledc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_parlio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_usb_serial_jtag/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/i2c/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/touch_sensor/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/twai/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/touch_sensor/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_phy/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_phy/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_vfs_console/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_netif/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/wpa_supplicant/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/wpa_supplicant/port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/wpa_supplicant/esp_supplicant/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_coex/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi/wifi_apps/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi/include/local -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/unity/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/unity/unity/src -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/cmock/CMock/src -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/console -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/http_parser -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp-tls -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp-tls/esp-tls-crypto -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc/interface -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc/deprecated/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_isp/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_cam/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_cam/interface -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_jpeg/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ppa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_eth/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_gdbstub/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hid/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/tcp_transport/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_client/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_server/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_ota/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_server/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_psram/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_lcd/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_lcd/interface -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protobuf-c/protobuf-c -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm/include/common -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm/include/security -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm/include/transports -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm/include/crypto/srp6a -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm/proto-c -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_local_ctrl/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/espcoredump/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/espcoredump/include/port/xtensa -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/wear_levelling/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/fatfs/diskio -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/fatfs/src -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/fatfs/vfs -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/idf_test/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/idf_test/include/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/ieee802154/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/json/cJSON -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/mqtt/esp-mqtt/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_sec_provider/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/perfmon/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/spiffs/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/wifi_provisioning/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=D:/Nidhi/ESP32/3_ADC/potentiometer=. -fmacro-prefix-map=C:/Users/DNK133/ESP/v5.3/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c
+In file included from D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: In function 'app_main':
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:19:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   19 |     adc2_config_channel_atten(ADC_CHANNEL, ADC_ATTEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:15:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:26:13: error: redefinition of 'adc_reading'
+   26 |         int adc_reading = adc2_get_raw(ADC_CHANNEL, ADC_WIDTH, &adc_reading);
+      |             ^~~~~~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:23:13: note: previous definition of 'adc_reading' with type 'int'
+   23 |         int adc_reading = 0;
+      |             ^~~~~~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: At top level:
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:33:1: error: expected identifier or '(' before '}' token
+   33 | }
+      | ^
+ninja: build stopped: subcommand failed.
+��Table:[0m
+[0;32mI (43) boot: ## Label       �[0;32mI (13) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep  3 2024 16:55:03[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.0[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09b60h ( 39776) map[0m
+[0;32mI (99) esp_image: segment 1: paddr=00019b88 vaddr=3ffb0000 size=0230ch (  8972) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=0001be9c vaddr=40080000 size=0417ch ( 16764) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14500h ( 83200) map[0m
+[0;32mI (142) esp_image: segment 4: paddr=00034528 vaddr=4008417c size=088a4h ( 34980) load[0m
+[0;32mI (162) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (162) boot: Disabling RNG early entropy source...[0m
+[0;32mI (174) cpu_start: Multicore app[0m
+[0;32mI (182) cpu_start: Pro cpu start user code[0m
+[0;32mI (182) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (183) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     main[0m
+[0;32mI (190) app_init: App version:      1[0m
+[0;32mI (194) app_init: Compile time:     Sep  3 2024 16:52:54[0m
+[0;32mI (200) app_init: ELF file SHA256:  1f5c0f094...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (215) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (220) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (225) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (232) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFB2BE0 len 0002D420 (181 KiB): DRAM[0m
+[0;32mI (244) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (251) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (257) heap_init: At 4008CA20 len 000135E0 (77 KiB): IRAM[0m
+[0;32mI (265) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (272) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (285) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (294) main_task: Started on CPU0[0m
+[0;32mI (304) main_task: Calling app_main()[0m
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0
+ADC Read Error: 0

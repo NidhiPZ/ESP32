@@ -1,0 +1,29 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_ADC\potentiometer\build\bootloader\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Nidhi/ESP32/3_ADC/potentiometer/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c: In function 'app_main':
+D:/Nidhi/ESP32/3_ADC/potentiometer/main/main.c:14:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   14 |     adc2_config_channel_atten(ADC2_CHANNEL_3, ADC_ATTEN_DB_11);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated/driver/adc.h:15:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Building C object CMakeFiles/main.elf.dir/project_elf_src_esp32.c.obj
+[6/8] Linking CXX executable main.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin
+[8/8] cmd.exe /C "cd /D D:\Nidhi\ESP32\3_ADC\potentiometer\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/3_ADC/potentiometer/build/partition_table/partition-table.bin D:/Nidhi/ESP32/3_ADC/potentiometer/build/main.bin"
+main.bin binary size 0x2cdc0 bytes. Smallest app partition is 0x100000 bytes. 0xd3240 bytes (82%) free.

@@ -1,0 +1,58 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+
+ninja failed with exit code 1, output of the command is in the D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stderr_output_5608 and D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stdout_output_5608
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mHINT: The issue is better to resolve by replacing format specifiers to 'PRI'-family macros (include <inttypes.h> header file).[0m
+ninja failed with exit code 1, output of the command is in the D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stderr_output_8212 and D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stdout_output_8212
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+ninja failed with exit code 1, output of the command is in the D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stderr_output_5480 and D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stdout_output_5480
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+ninja failed with exit code 1, output of the command is in the D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stderr_output_2124 and D:\Nidhi\ESP32\3_ADC\potentiometer\build\log\idf_py_stdout_output_2124
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 77ff39a3e2a47d6a7f2f5394b9b1d96f32823977f7b91163924b654abeda7064[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0m
