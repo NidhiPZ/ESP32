@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "C:\\Users\\DNK133\\ESP\\v5.3\\esp-idf/**",
                 "C:\\Users\\DNK133\\ESP\\v5.3\\esp-idf\\components\\freertos/**",
-                "C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel-SMP/portable/xtensa/include/freertos/**"
+                "C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel-SMP/portable/xtensa/include/freertos/**",
+                "${workspaceFolder}/6_I2C/3_SHT3x_wid_lib/components/SHT3x/include/**",
+                "${workspaceFolder}/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/include/**"
             ],
             "defines": [
                 "_DEBUG",

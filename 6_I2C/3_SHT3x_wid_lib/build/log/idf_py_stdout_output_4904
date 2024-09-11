@@ -1,0 +1,42 @@
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/humid_temp.c.obj
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable humid_temp.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/humid_temp.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\6_I2C\3_SHT3x_wid_lib\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/partition_table/partition-table.bin D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/humid_temp.bin"
+humid_temp.bin binary size 0x31ed0 bytes. Smallest app partition is 0x100000 bytes. 0xce130 bytes (80%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_pyesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 humid_temp.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+WARNING: Detected crystal freq 41.01MHz is quite different to normalized freq 40MHz. Unsupported crystal in use?
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x00041fff...
+Compressed 204496 bytes to 109000...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001d040... (28 %)
+Writing at 0x00022ce5... (42 %)
+Writing at 0x00028ca2... (57 %)
+Writing at 0x0002fbaf... (71 %)
+Writing at 0x00037c37... (85 %)
+Writing at 0x0003dd5d... (100 %)
+Wrote 204496 bytes (109000 compressed) at 0x00010000 in 2.8 seconds (effective 593.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+/run_serial_tool.cmake"

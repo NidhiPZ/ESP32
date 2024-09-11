@@ -1,0 +1,13 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40082e7e: _xt_lowint1 at C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/xtensa_vectors.S:1240
+[0m
+[0;33m0x4008496e: esp_cpu_wait_for_intr at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/cpu.c:64
+[0m
+[0m

@@ -11,8 +11,10 @@
 
 static char tag[] = "i2cscanner";
 
-void task_i2cscanner(void *ignore) {
+void task_i2cscanner(void *ignore) 
+{
 	ESP_LOGD(tag, ">> i2cScanner");
+	
 	i2c_config_t conf;
 	conf.mode = I2C_MODE_MASTER;
 	conf.sda_io_num = SDA_PIN;

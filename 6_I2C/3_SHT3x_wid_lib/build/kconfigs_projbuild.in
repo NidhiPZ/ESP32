@@ -1,0 +1,6 @@
+source "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/Kconfig.projbuild"
+source "D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/main/Kconfig.projbuild"

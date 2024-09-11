@@ -1,0 +1,338 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:38
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008c8c9: abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/abort.c:30
+0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 968fa051dcfc9ac605f52e475a4b11055ad6a8d66a220f4a467e15967f8b88cd[0m
+[0;33m0x4008728b: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40081932: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400867c5: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/

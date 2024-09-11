@@ -13,11 +13,11 @@
 // #define I2C_MASTER_TX_BUF_DISABLE   0      // I2C master does not need buffer
 // #define I2C_MASTER_RX_BUF_DISABLE   0      // I2C master does not need buffer
 
-#define SHT3X_SENSOR_ADDR           0x44   // I2C address of the SHT3x sensor
+#define SHT3X_SENSOR_ADDR           0x45  // I2C address of the SHT3x sensor
 #define SHT3X_CMD_MEASURE_HIGHREP   0x2400 // High repeatability measurement command
 
 static const char *TAG = "SHT3X";
-
+    
 void i2c_master_init() 
 {
     i2c_config_t conf = 
@@ -33,7 +33,8 @@ void i2c_master_init()
     i2c_driver_install(I2C_MASTER_NUM, conf.mode, 0, 0, 0);
 }
 
-esp_err_t sht3x_read_temp_humidity(float *temperature, float *humidity) {
+esp_err_t sht3x_read_temp_humidity(float *temperature, float *humidity) 
+{
     uint8_t write_buffer[2] = {SHT3X_CMD_MEASURE_HIGHREP >> 8, SHT3X_CMD_MEASURE_HIGHREP & 0xFF};
     uint8_t read_buffer[6];
 
@@ -46,7 +47,8 @@ esp_err_t sht3x_read_temp_humidity(float *temperature, float *humidity) {
     esp_err_t ret = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, 1000 / portTICK_PERIOD_MS);
     i2c_cmd_link_delete(cmd);
 
-    if (ret != ESP_OK) {
+    if (ret != ESP_OK) 
+    {
         ESP_LOGE(TAG, "Error in writing I2C command");
         return ret;
     }
@@ -79,14 +81,18 @@ esp_err_t sht3x_read_temp_humidity(float *temperature, float *humidity) {
     return ESP_OK;
 }
 
-void app_main() {
+void app_main()
+ {
     i2c_master_init();
 
     float temperature, humidity;
-    while (1) {
+    while (1) 
+    {
         if (sht3x_read_temp_humidity(&temperature, &humidity) == ESP_OK) {
             printf("Temperature: %.2f°C, Humidity: %.2f%%\n", temperature, humidity);
-        } else {
+        } 
+        else 
+        {
             printf("Failed to read from SHT3x sensor\n");
         }
         vTaskDelay(2000 / portTICK_PERIOD_MS);  // Read sensor every 2 seconds

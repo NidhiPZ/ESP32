@@ -1,0 +1,363 @@
+�[0;32mI (36) boot: chip revision: v3.0[0m
+[0;ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 11 2024 12:47:33[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b010h ( 45072) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b038 vaddr=3ffb0000 size=02384h (  9092) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d3c4 vaddr=40080000 size=02c54h ( 11348) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16a00h ( 92672) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=00036a28 vaddr=40082c54 size=0b468h ( 46184) load[0m
+[0;32mI (191) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (203) cpu_start: Multicore app[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (212) app_init: Application information:[0m
+[0;32mI (215) app_init: Project name:     humid_temp[0m
+[0;32mI (220) app_init: App version:      fd04917-dirty[0m
+[0;32mI (225) app_init: Compile time:     Sep 11 2024 14:07:47[0m
+[0;32mI (231) app_init: ELF file SHA256:  4b1fd3a38...[0m
+[0;32mI (237) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (247) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (251) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2CF0 len 0002D310 (180 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008E0BC len 00011F44 (71 KiB): IRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (299) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (316) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (328) main_task: Started on CPU0[0m
+[0;32mI (338) main_task: Calling app_main()[0m
+[0;32mI (338) main_task: Returned from app_main()[0m
+SHT3x Sensor: 27.34 °C, 53.82 %
+SHT3x Sensor: 27.38 °C, 53.73 %
+SHT3x Sensor: 27.40 °C, 53.70 %
+SHT3x Sensor: 27.38 °C, 53.57 %
+SHT3x Sensor: 27.40 °C, 53.51 %
+SHT3x Sensor: 27.36 °C, 53.40 %
+SHT3x Sensor: 27.37 °C, 53.30 %
+SHT3x Sensor: 27.41 °C, 53.21 %
+SHT3x Sensor: 27.36 °C, 53.16 %
+SHT3x Sensor: 27.38 °C, 53.37 %
+SHT3x Sensor: 27.37 °C, 53.68 %
+SHT3x Sensor: 27.40 °C, 53.97 %
+SHT3x Sensor: 27.38 °C, 54.07 %
+SHT3x Sensor: 27.38 °C, 54.27 %
+SHT3x Sensor: 27.37 °C, 54.40 %
+SHT3x Sensor: 27.44 °C, 55.06 %
+SHT3x Sensor: 27.58 °C, 57.53 %
+SHT3x Sensor: 27.93 °C, 61.55 %
+[0;31mE (36368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (38368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)SHT3x Sensor: 28.98 °C, 70.72 %
+SHT3x Sensor: 28.44 °C, 70.14 %
+SHT3x Sensor: 28.47 °C, 65.93 %
+SHT3x Sensor: 29.05 °C, 66.67 %
+SHT3x Sensor: 29.22 °C, 68.97 %
+SHT3x Sensor: 29.39 °C, 69.82 %
+SHT3x Sensor: 29.53 °C, 70.50 %
+SHT3x Sensor: 29.69 °C, 70.59 %
+SHT3x Sensor: 29.80 °C, 71.02 %
+SHT3x Sensor: 29.61 °C, 70.85 %
+SHT3x Sensor: 29.66 °C, 69.61 %
+SHT3x Sensor: 29.69 °C, 67.82 %
+SHT3x Sensor: 29.76 °C, 66.17 %
+SHT3x Sensor: 29.68 °C, 63.32 %
+SHT3x Sensor: 29.65 °C, 59.92 %
+SHT3x Sensor: 29.63 °C, 57.20 %
+SHT3x Sensor: 29.65 °C, 55.16 %
+SHT3x Sensor: 29.63 °C, 53.86 %
+SHT3x Sensor: 29.62 °C, 52.97 %
+SHT3x Sensor: 29.56 °C, 52.53 %
+SHT3x Sensor: 29.50 °C, 52.27 %
+SHT3x Sensor: 29.45 °C, 52.12 %
+SHT3x Sensor: 29.45 °C, 52.03 %
+SHT3x Sensor: 29.38 °C, 51.87 %
+SHT3x Sensor: 29.35 °C, 51.94 %
+SHT3x Sensor: 29.31 °C, 51.95 %
+SHT3x Sensor: 29.25 °C, 51.96 %
+SHT3x Sensor: 29.18 °C, 51.74 %
+SHT3x Sensor: 29.18 °C, 51.38 %
+SHT3x Sensor: 29.14 °C, 51.28 %
+SHT3x Sensor: 29.12 °C, 51.15 %
+SHT3x Sensor: 29.05 °C, 51.19 %
+SHT3x Sensor: 29.04 °C, 51.35 %
+SHT3x Sensor: 28.98 °C, 51.62 %
+SHT3x Sensor: 28.97 °C, 51.66 %
+SHT3x Sensor: 28.91 °C, 51.70 %
+SHT3x Sensor: 28.87 °C, 51.87 %
+SHT3x Sensor: 28.85 °C, 51.86 %
+SHT3x Sensor: 28.80 °C, 51.75 %
+SHT3x Sensor: 28.76 °C, 51.30 %
+SHT3x Sensor: 28.73 °C, 50.92 %
+SHT3x Sensor: 28.67 °C, 50.64 %
+SHT3x Sensor: 28.63 °C, 50.54 %
+SHT3x Sensor: 28.57 °C, 50.45 %
+SHT3x Sensor: 28.56 °C, 50.35 %
+SHT3x Sensor: 28.47 °C, 50.31 %
+SHT3x Sensor: 28.43 °C, 50.34 %
+SHT3x Sensor: 28.40 °C, 50.44 %
+SHT3x Sensor: 28.35 °C, 50.45 %
+SHT3x Sensor: 28.30 °C, 50.45 %
+SHT3x Sensor: 28.28 °C, 50.54 %
+SHT3x Sensor: 28.25 °C, 50.55 %
+SHT3x Sensor: 28.23 °C, 50.56 %
+SHT3x Sensor: 28.19 °C, 50.70 %
+SHT3x Sensor: 28.18 °C, 50.82 %
+SHT3x Sensor: 28.16 °C, 50.89 %
+SHT3x Sensor: 28.12 °C, 51.02 %
+SHT3x Sensor: 28.09 °C, 51.39 %
+SHT3x Sensor: 28.07 °C, 51.73 %
+SHT3x Sensor: 28.05 °C, 51.76 %
+SHT3x Sensor: 28.03 °C, 51.88 %
+SHT3x Sensor: 28.02 °C, 52.15 %
+SHT3x Sensor: 28.00 °C, 52.69 %
+SHT3x Sensor: 27.99 °C, 53.13 %
+SHT3x Sensor: 27.96 °C, 53.20 %
+SHT3x Sensor: 27.98 °C, 53.04 %
+SHT3x Sensor: 27.95 °C, 52.95 %
+SHT3x Sensor: 27.91 °C, 52.88 %
+SHT3x Sensor: 27.91 °C, 52.92 %
+SHT3x Sensor: 27.89 °C, 53.02 %
+SHT3x Sensor: 27.88 °C, 53.08 %
+SHT3x Sensor: 27.88 °C, 53.17 %
+SHT3x Sensor: 27.88 °C, 53.35 %
+SHT3x Sensor: 27.85 °C, 53.50 %
+SHT3x Sensor: 27.82 °C, 53.62 %
+SHT3x Sensor: 27.82 °C, 53.76 %
+SHT3x Sensor: 27.79 °C, 53.69 %
+SHT3x Sensor: 27.77 °C, 53.36 %
+SHT3x Sensor: 27.75 °C, 53.21 %
+SHT3x Sensor: 27.77 °C, 52.99 %
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\6_I2C\3_SHT3x_wid_lib\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/humid_temp.c.obj
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable humid_temp.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/humid_temp.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\6_I2C\3_SHT3x_wid_lib\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/partition_table/partition-table.bin D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/humid_temp.bin"
+humid_temp.bin binary size 0x31ed0 bytes. Smallest app partition is 0x100000 bytes. 0xce130 bytes (80%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_pyesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 humid_temp.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+WARNING: Detected crystal freq 41.01MHz is quite different to normalized freq 40MHz. Unsupported crystal in use?
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x00041fff...
+Compressed 204496 bytes to 109000...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001d040... (28 %)
+Writing at 0x00022ce5... (42 %)
+Writing at 0x00028ca2... (57 %)
+Writing at 0x0002fbaf... (71 %)
+Writing at 0x00037c37... (85 %)
+Writing at 0x0003dd5d... (100 %)
+Wrote 204496 bytes (109000 compressed) at 0x00010000 in 2.8 seconds (effective 593.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+/run_serial_tool.cmake"
+Done
+&�+
+B��J���� chip revision: v3.0[0m
+[0;32mI (40)�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 11 2024 12:47:33[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b020h ( 45088) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b048 vaddr=3ffb0000 size=02384h (  9092) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d3d4 vaddr=40080000 size=02c44h ( 11332) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16a00h ( 92672) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=00036a28 vaddr=40082c44 size=0b478h ( 46200) load[0m
+[0;32mI (192) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (203) cpu_start: Multicore app[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (212) app_init: Application information:[0m
+[0;32mI (215) app_init: Project name:     humid_temp[0m
+[0;32mI (220) app_init: App version:      fd04917-dirty[0m
+[0;32mI (225) app_init: Compile time:     Sep 11 2024 14:07:47[0m
+[0;32mI (231) app_init: ELF file SHA256:  1cdc1fa30...[0m
+[0;32mI (237) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (247) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (251) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2CF0 len 0002D310 (180 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008E0BC len 00011F44 (71 KiB): IRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (299) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (316) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (328) main_task: Started on CPU0[0m
+[0;32mI (338) main_task: Calling app_main()[0m
+[0;32mI (338) main_task: Returned from app_main()[0m
+SHT3x Sensor: temp = 27.55 °C, humidity = 53.08 %
+SHT3x Sensor: temp = 27.52 °C, humidity = 53.36 %
+SHT3x Sensor: temp = 27.48 °C, humidity = 53.68 %
+SHT3x Sensor: temp = 27.48 °C, humidity = 54.07 %
+SHT3x Sensor: temp = 27.50 °C, humidity = 54.12 %
+SHT3x Sensor: temp = 27.50 °C, humidity = 54.23 %
+SHT3x Sensor: temp = 27.45 °C, humidity = 53.99 %
+SHT3x Sensor: temp = 27.45 °C, humidity = 53.55 %
+SHT3x Sensor: temp = 27.43 °C, humidity = 53.13 %
+SHT3x Sensor: temp = 27.43 °C, humidity = 52.88 %
+SHT3x Sensor: temp = 27.41 °C, humidity = 52.79 %
+SHT3x Sensor: temp = 27.38 °C, humidity = 52.74 %
+SHT3x Sensor: temp = 27.37 °C, humidity = 52.66 %
+SHT3x Sensor: temp = 27.34 °C, humidity = 52.48 %
+SHT3x Sensor: temp = 27.34 °C, humidity = 52.33 %
+SHT3x Sensor: temp = 27.31 °C, humidity = 52.34 %
+SHT3x Sensor: temp = 27.30 °C, humidity = 52.34 %
+SHT3x Sensor: temp = 27.27 °C, humidity = 52.26 %
+SHT3x Sensor: temp = 27.24 °C, humidity = 52.17 %
+SHT3x Sensor: temp = 27.22 °C, humidity = 52.10 %
+SHT3x Sensor: temp = 27.22 °C, humidity = 52.16 %
+SHT3x Sensor: temp = 27.20 °C, humidity = 52.25 %
+SHT3x Sensor: temp = 27.17 °C, humidity = 52.36 %
+SHT3x Sensor: temp = 27.20 °C, humidity = 52.41 %
+SHT3x Sensor: temp = 27.20 °C, humidity = 52.45 %
+SHT3x Sensor: temp = 27.20 °C, humidity = 52.41 %
+SHT3x Sensor: temp = 27.20 °C, humidity = 52.47 %
+SHT3x Sensor: temp = 27.19 °C, humidity = 52.58 %
+SHT3x Sensor: temp = 27.19 °C, humidity = 52.72 %
+SHT3x Sensor: temp = 27.16 °C, humidity = 52.79 %
+SHT3x Sensor: temp = 27.19 °C, humidity = 52.72 %
+SHT3x Sensor: temp = 27.17 °C, humidity = 52.67 %
+SHT3x Sensor: temp = 27.19 °C, humidity = 52.60 %
+SHT3x Sensor: temp = 27.16 °C, humidity = 52.45 %
+SHT3x Sensor: temp = 27.14 °C, humidity = 52.39 %
+SHT3x Sensor: temp = 27.13 °C, humidity = 52.39 %
+SHT3x Sensor: temp = 27.10 °C, humidity = 52.34 %
+SHT3x Sensor: temp = 27.09 °C, humidity = 52.34 %
+SHT3x Sensor: temp = 27.10 °C, humidity = 52.25 %
+SHT3x Sensor: temp = 27.06 °C, humidity = 52.16 %
+SHT3x Sensor: temp = 27.03 °C, humidity = 52.16 %
+[0;31mE (82368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (84368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (86368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)SHT3x Sensor: temp = 27.62 °C, humidity = 58.43 %
+SHT3x Sensor: temp = 27.64 °C, humidity = 57.45 %
+SHT3x Sensor: temp = 27.61 °C, humidity = 56.40 %
+SHT3x Sensor: temp = 27.57 °C, humidity = 55.55 %
+SHT3x Sensor: temp = 27.57 °C, humidity = 54.98 %
+SHT3x Sensor: temp = 27.99 °C, humidity = 56.28 %
+SHT3x Sensor: temp = 28.36 °C, humidity = 61.51 %
+SHT3x Sensor: temp = 28.51 °C, humidity = 66.23 %
+SHT3x Sensor: temp = 28.66 °C, humidity = 70.04 %
+SHT3x Sensor: temp = 28.80 °C, humidity = 73.13 %
+SHT3x Sensor: temp = 28.91 °C, humidity = 75.56 %
+SHT3x Sensor: temp = 29.05 °C, humidity = 77.38 %
+SHT3x Sensor: temp = 29.18 °C, humidity = 78.60 %
+SHT3x Sensor: temp = 29.29 °C, humidity = 79.52 %
+[0;31mE (116368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (118368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (120368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)[0;31mE (122368) i2cdev: Could not read from device [0x44 at 0]: -1 (ESP_FAIL)[0m
+Could not get results: -1 (ESP_FAIL)SHT3x Sensor: temp = 29.69 °C, humidity = 80.28 %
+SHT3x Sensor: temp = 29.45 °C, humidity = 79.57 %
+SHT3x Sensor: temp = 29.45 °C, humidity = 76.43 %
+SHT3x Sensor: temp = 29.36 °C, humidity = 71.92 %
+SHT3x Sensor: temp = 29.36 °C, humidity = 66.83 %
+SHT3x Sensor: temp = 29.32 °C, humidity = 62.56 %
+SHT3x Sensor: temp = 29.32 °C, humidity = 59.45 %
+SHT3x Sensor: temp = 29.31 °C, humidity = 57.11 %
+SHT3x Sensor: temp = 29.29 °C, humidity = 55.27 %
+SHT3x Sensor: temp = 29.22 °C, humidity = 53.86 %
+SHT3x Sensor: temp = 29.17 °C, humidity = 52.74 %
+SHT3x Sensor: temp = 29.11 °C, humidity = 51.82 %
+SHT3x Sensor: temp = 29.04 °C, humidity = 51.24 %
+SHT3x Sensor: temp = 29.02 °C, humidity = 50.73 %
+SHT3x Sensor: temp = 28.95 °C, humidity = 50.17 %
+SHT3x Sensor: temp = 28.91 °C, humidity = 49.79 %
+SHT3x Sensor: temp = 28.85 °C, humidity = 49.84 %
+SHT3x Sensor: temp = 28.78 °C, humidity = 49.92 %
+SHT3x Sensor: temp = 28.71 °C, humidity = 50.01 %
+SHT3x Sensor: temp = 28.66 °C, humidity = 49.79 %
+SHT3x Sensor: temp = 28.63 °C, humidity = 49.67 %
+SHT3x Sensor: temp = 28.60 °C, humidity = 49.70 %
+SHT3x Sensor: temp = 28.59 °C, humidity = 49.77 %
+SHT3x Sensor: temp = 28.54 °C, humidity = 49.75 %
+SHT3x Sensor: temp = 28.49 °C, humidity = 49.83 %
+SHT3x Sensor: temp = 28.44 °C, humidity = 49.85 %
+SHT3x Sensor: temp = 28.40 °C, humidity = 49.88 %
+SHT3x Sensor: temp = 28.37 °C, humidity = 49.91 %
+SHT3x Sensor: temp = 28.35 °C, humidity = 49.95 %
+SHT3x Sensor: temp = 28.29 °C, humidity = 50.06 %
+SHT3x Sensor: temp = 28.25 °C, humidity = 50.04 %
+SHT3x Sensor: temp = 28.22 °C, humidity = 50.00 %
+SHT3x Sensor: temp = 28.22 °C, humidity = 50.02 %
+SHT3x Sensor: temp = 28.19 °C, humidity = 50.06 %
+SHT3x Sensor: temp = 28.13 °C, humidity = 50.04 %
+SHT3x Sensor: temp = 28.11 °C, humidity = 49.95 %

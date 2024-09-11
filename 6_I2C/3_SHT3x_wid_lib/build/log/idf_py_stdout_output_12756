@@ -1,0 +1,84 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Nidhi\ESP32\6_I2C\3_SHT3x_wid_lib\build\bootloader\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/10] Building C object esp-idf/i2c_dev/CMakeFiles/__idf_i2c_dev.dir/i2c_dev.c.obj
+FAILED: esp-idf/i2c_dev/CMakeFiles/__idf_i2c_dev.dir/i2c_dev.c.obj 
+ccache C:\Users\DNK133\.espressif\tools\xtensa-esp-elf\esp-13.2.0_20240530\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.3-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/build/config -ID:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/platform_include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/include/freertos -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/config/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/esp_additions/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include/soc -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/include/soc/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/dma/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/ldo/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/. -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/heap/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/log/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/platform_port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/include/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32 -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/soc -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/include/private -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/deprecated_include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include/apps -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/include/apps/sntp -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/lwip/src/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/freertos/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include/arch -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip/port/esp32xx/include/sys -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/deprecated -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/i2c/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/touch_sensor/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/twai/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/driver/touch_sensor/esp32/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_pm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_ringbuf/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gpio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_pcnt/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gptimer/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_spi/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_mcpwm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ana_cmpr/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2s/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdmmc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/sdmmc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdspi/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_dac/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_rmt/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_tsens/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdm/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2c/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_uart/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/vfs/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ledc/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_parlio/include -IC:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_usb_serial_jtag/include -ID:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/esp_idf_lib_helpers/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib=. -fmacro-prefix-map=C:/Users/DNK133/ESP/v5.3/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/i2c_dev/CMakeFiles/__idf_i2c_dev.dir/i2c_dev.c.obj -MF esp-idf\i2c_dev\CMakeFiles\__idf_i2c_dev.dir\i2c_dev.c.obj.d -o esp-idf/i2c_dev/CMakeFiles/__idf_i2c_dev.dir/i2c_dev.c.obj -c D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:22,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:3:
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c: In function 'i2cdev_done':
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:62: error: 'CONFIG_I2CDEV_TIMEOUT' undeclared (first use in this function)
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:48: note: in expansion of macro 'pdMS_TO_TICKS'
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:69:13: note: in expansion of macro 'SEMAPHORE_TAKE'
+   69 |             SEMAPHORE_TAKE(i);
+      |             ^~~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:62: note: each undeclared identifier is reported only once for each function it appears in
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:48: note: in expansion of macro 'pdMS_TO_TICKS'
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:69:13: note: in expansion of macro 'SEMAPHORE_TAKE'
+   69 |             SEMAPHORE_TAKE(i);
+      |             ^~~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c: In function 'i2c_dev_take_mutex':
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:119:51: error: 'CONFIG_I2CDEV_TIMEOUT' undeclared (first use in this function)
+  119 |     if (!xSemaphoreTake(dev->mutex, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT)))
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:119:37: note: in expansion of macro 'pdMS_TO_TICKS'
+  119 |     if (!xSemaphoreTake(dev->mutex, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT)))
+      |                                     ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c: In function 'i2c_dev_probe':
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:62: error: 'CONFIG_I2CDEV_TIMEOUT' undeclared (first use in this function)
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:48: note: in expansion of macro 'pdMS_TO_TICKS'
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:222:5: note: in expansion of macro 'SEMAPHORE_TAKE'
+  222 |     SEMAPHORE_TAKE(dev->port);
+      |     ^~~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c: In function 'i2c_dev_read':
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:62: error: 'CONFIG_I2CDEV_TIMEOUT' undeclared (first use in this function)
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:48: note: in expansion of macro 'pdMS_TO_TICKS'
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:246:5: note: in expansion of macro 'SEMAPHORE_TAKE'
+  246 |     SEMAPHORE_TAKE(dev->port);
+      |     ^~~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c: In function 'i2c_dev_write':
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:62: error: 'CONFIG_I2CDEV_TIMEOUT' undeclared (first use in this function)
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h:279:92: note: in definition of macro 'xSemaphoreTake'
+  279 | #define xSemaphoreTake( xSemaphore, xBlockTime )    xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+      |                                                                                            ^~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:22:48: note: in expansion of macro 'pdMS_TO_TICKS'
+   22 |         if (!xSemaphoreTake(states[port].lock, pdMS_TO_TICKS(CONFIG_I2CDEV_TIMEOUT))) \
+      |                                                ^~~~~~~~~~~~~
+D:/Nidhi/ESP32/6_I2C/3_SHT3x_wid_lib/components/i2c_dev/i2c_dev.c:278:5: note: in expansion of macro 'SEMAPHORE_TAKE'
+  278 |     SEMAPHORE_TAKE(dev->port);
+      |     ^~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
