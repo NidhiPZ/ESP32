@@ -1043,3 +1043,15 @@
 21258	21416	0	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	c19ebe89330a446c
 21416	27299	0	esp-idf/esptool_py/CMakeFiles/app-flash	ba7f46ee85cc3f8b
 21416	27299	0	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/esp-idf/esptool_py/CMakeFiles/app-flash	ba7f46ee85cc3f8b
+287	530	0	esp-idf/esptool_py/CMakeFiles/app_check_size	c19ebe89330a446c
+287	530	0	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/esp-idf/esptool_py/CMakeFiles/app_check_size	c19ebe89330a446c
+276	665	7473018110109811	bootloader-prefix/src/bootloader-stamp/bootloader-build	fe92cb0dd0e99447
+276	665	7473018110109811	bootloader/bootloader.elf	fe92cb0dd0e99447
+276	665	7473018110109811	bootloader/bootloader.bin	fe92cb0dd0e99447
+276	665	7473018110109811	bootloader/bootloader.map	fe92cb0dd0e99447
+276	665	7473018110109811	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	fe92cb0dd0e99447
+276	665	7473018110109811	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/bootloader/bootloader.elf	fe92cb0dd0e99447
+276	665	7473018110109811	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/bootloader/bootloader.bin	fe92cb0dd0e99447
+276	665	7473018110109811	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/bootloader/bootloader.map	fe92cb0dd0e99447
+666	7629	0	CMakeFiles/flash	5cca5d26558a15ca
+666	7629	0	D:/Nidhi/ESP32/5_UART/3_Uart_led/build/CMakeFiles/flash	5cca5d26558a15ca

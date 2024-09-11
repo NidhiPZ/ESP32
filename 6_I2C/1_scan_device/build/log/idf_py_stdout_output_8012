@@ -1,0 +1,41 @@
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/scan.c.obj
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable scan.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/6_I2C/1_scan_device/build/scan.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\6_I2C\1_scan_device\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/6_I2C/1_scan_device/build/partition_table/partition-table.bin D:/Nidhi/ESP32/6_I2C/1_scan_device/build/scan.bin"
+scan.bin binary size 0x30980 bytes. Smallest app partition is 0x100000 bytes. 0xcf680 bytes (81%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espesptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 scan.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x00040fff...
+Compressed 199040 bytes to 106055...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001ce98... (28 %)
+Writing at 0x0002299a... (42 %)
+Writing at 0x00028818... (57 %)
+Writing at 0x000301d5... (71 %)
+Writing at 0x00037867... (85 %)
+Writing at 0x0003dc99... (100 %)
+Wrote 199040 bytes (106055 compressed) at 0x00010000 in 2.7 seconds (effective 600.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+ressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/6_I2C/1_scan_device/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"

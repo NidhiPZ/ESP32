@@ -1,0 +1,276 @@
+m�;32mI (36) boot: chip revision: v3.0[0m
+[0;32�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 10 2024 16:01:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ab50h ( 43856) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001ab78 vaddr=3ffb0000 size=02384h (  9092) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001cf04 vaddr=40080000 size=03114h ( 12564) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=15e34h ( 89652) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=00035e5c vaddr=40083114 size=0aedch ( 44764) load[0m
+[0;32mI (189) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (190) boot: Disabling RNG early entropy source...[0m
+[0;32mI (201) cpu_start: Multicore app[0m
+[0;32mI (210) cpu_start: Pro cpu start user code[0m
+[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (210) app_init: Application information:[0m
+[0;32mI (213) app_init: Project name:     temp_humidity[0m
+[0;32mI (218) app_init: App version:      3f7272a-dirty[0m
+[0;32mI (224) app_init: Compile time:     Sep 10 2024 15:57:06[0m
+[0;32mI (230) app_init: ELF file SHA256:  21f89dc56...[0m
+[0;32mI (235) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (240) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (245) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (250) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (255) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (262) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (268) heap_init: At 3FFB2C58 len 0002D3A8 (180 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (280) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (287) heap_init: At 4008E000 len 00012000 (72 KiB): IRAM[0m
+[0;32mI (295) spi_flash: detected chip: generic[0m
+[0;32mI (298) spi_flash: flash io: dio[0m
+[0;33mW (302) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (315) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (326) main_task: Started on CPU0[0m
+[0;32mI (336) main_task: Calling app_main()[0m
+Temperature: 28.62°C, Humidity: 48.80%
+Temperature: 28.60°C, Humidity: 48.79%
+Temperature: 28.60°C, Humidity: 48.79%
+Temperature: 28.60°C, Humidity: 48.84%
+Temperature: 28.60°C, Humidity: 48.80%
+Temperature: 28.62°C, Humidity: 48.86%
+Temperature: 28.62°C, Humidity: 48.95%
+Temperature: 28.62°C, Humidity: 49.00%
+Temperature: 28.63°C, Humidity: 49.06%
+Temperature: 28.63°C, Humidity: 49.14%
+Temperature: 28.63°C, Humidity: 49.16%
+Temperature: 28.60°C, Humidity: 49.20%
+Temperature: 28.63°C, Humidity: 49.22%
+Temperature: 28.60°C, Humidity: 49.26%
+Temperature: 28.63°C, Humidity: 49.25%
+Temperature: 28.63°C, Humidity: 49.23%
+Temperature: 28.69°C, Humidity: 49.23%
+Temperature: 28.66°C, Humidity: 49.18%
+Temperature: 28.66°C, Humidity: 49.34%
+Temperature: 28.63°C, Humidity: 49.33%
+Temperature: 28.64°C, Humidity: 49.39%
+Temperature: 28.64°C, Humidity: 49.47%
+Temperature: 28.64°C, Humidity: 49.52%
+Temperature: 28.66°C, Humidity: 49.52%
+Temperature: 28.66°C, Humidity: 49.58%
+Temperature: 28.66°C, Humidity: 49.62%
+Temperature: 28.66°C, Humidity: 49.68%
+Temperature: 28.66°C, Humidity: 49.69%
+Temperature: 28.67°C, Humidity: 49.72%
+Temperature: 28.66°C, Humidity: 49.72%
+Temperature: 28.67°C, Humidity: 49.78%
+Temperature: 28.69°C, Humidity: 49.82%
+Temperature: 28.69°C, Humidity: 49.75%
+Temperature: 28.64°C, Humidity: 49.70%
+Temperature: 28.67°C, Humidity: 49.66%
+Temperature: 28.67°C, Humidity: 49.59%
+Temperature: 28.69°C, Humidity: 49.55%
+Temperature: 28.67°C, Humidity: 49.41%
+Temperature: 28.69°C, Humidity: 49.44%
+Temperature: 28.69°C, Humidity: 49.45%
+Temperature: 28.67°C, Humidity: 49.45%
+Temperature: 28.67°C, Humidity: 49.41%
+Temperature: 28.66°C, Humidity: 49.33%
+Temperature: 28.66°C, Humidity: 49.27%
+Temperature: 28.66°C, Humidity: 49.22%
+Temperature: 28.64°C, Humidity: 49.25%
+Temperature: 28.69°C, Humidity: 49.30%
+Temperature: 28.69°C, Humidity: 49.27%
+Temperature: 28.70°C, Humidity: 49.33%
+Temperature: 28.69°C, Humidity: 49.36%
+Temperature: 28.69°C, Humidity: 49.36%
+Temperature: 28.69°C, Humidity: 49.38%
+Temperature: 28.69°C, Humidity: 49.37%
+Temperature: 28.69°C, Humidity: 49.39%
+Temperature: 28.70°C, Humidity: 49.31%
+Temperature: 28.67°C, Humidity: 49.25%
+Temperature: 28.69°C, Humidity: 49.15%
+Temperature: 28.69°C, Humidity: 49.14%
+Temperature: 28.69°C, Humidity: 49.05%
+Temperature: 28.69°C, Humidity: 49.03%
+Temperature: 28.69°C, Humidity: 49.01%
+Temperature: 28.66°C, Humidity: 48.98%
+Temperature: 28.69°C, Humidity: 49.05%
+Temperature: 28.70°C, Humidity: 48.98%
+Temperature: 28.70°C, Humidity: 49.02%
+Temperature: 28.71°C, Humidity: 49.07%
+Temperature: 28.70°C, Humidity: 49.13%
+Temperature: 28.70°C, Humidity: 49.17%
+Temperature: 28.69°C, Humidity: 49.29%
+Temperature: 28.71°C, Humidity: 49.35%
+Temperature: 28.70°C, Humidity: 49.47%
+Temperature: 28.70°C, Humidity: 49.54%
+Temperature: 28.70°C, Humidity: 49.57%
+Temperature: 28.73°C, Humidity: 49.56%
+Temperature: 28.73°C, Humidity: 49.55%
+Temperature: 28.74°C, Humidity: 49.56%
+Temperature: 28.74°C, Humidity: 49.58%
+Temperature: 28.73°C, Humidity: 49.61%
+Temperature: 28.71°C, Humidity: 49.57%
+Temperature: 28.71°C, Humidity: 49.63%
+Temperature: 28.70°C, Humidity: 49.61%
+Temperature: 28.70°C, Humidity: 49.54%
+Temperature: 28.67°C, Humidity: 49.49%
+Temperature: 28.70°C, Humidity: 49.43%
+Temperature: 28.66°C, Humidity: 49.44%
+Temperature: 28.69°C, Humidity: 49.48%
+Temperature: 28.69°C, Humidity: 49.50%
+Temperature: 28.67°C, Humidity: 49.57%
+Temperature: 28.66°C, Humidity: 49.57%
+Temperature: 28.64°C, Humidity: 49.57%
+Temperature: 28.66°C, Humidity: 49.56%
+Temperature: 28.64°C, Humidity: 49.60%
+Temperature: 28.66°C, Humidity: 49.60%
+Temperature: 28.64°C, Humidity: 49.60%
+Temperature: 28.64°C, Humidity: 49.55%
+Temperature: 28.64°C, Humidity: 49.50%
+Temperature: 28.63°C, Humidity: 49.56%
+Temperature: 28.66°C, Humidity: 49.54%
+Temperature: 28.66°C, Humidity: 49.51%
+Temperature: 28.64°C, Humidity: 49.49%
+Temperature: 28.64°C, Humidity: 49.49%
+Temperature: 28.66°C, Humidity: 49.37%
+Temperature: 28.62°C, Humidity: 49.34%
+Temperature: 28.64°C, Humidity: 49.28%
+Temperature: 28.66°C, Humidity: 49.25%
+Temperature: 28.64°C, Humidity: 49.18%
+Temperature: 28.63°C, Humidity: 49.19%
+Temperature: 28.63°C, Humidity: 49.18%
+Temperature: 28.62°C, Humidity: 49.09%
+Temperature: 28.60°C, Humidity: 49.01%
+Temperature: 28.62°C, Humidity: 48.92%
+Temperature: 28.62°C, Humidity: 48.83%
+Temperature: 28.59°C, Humidity: 48.82%
+Temperature: 28.59°C, Humidity: 48.79%
+Temperature: 28.62°C, Humidity: 48.76%
+Temperature: 28.56°C, Humidity: 48.70%
+Temperature: 28.54°C, Humidity: 48.64%
+Temperature: 28.54°C, Humidity: 48.61%
+Temperature: 28.56°C, Humidity: 48.70%
+Temperature: 28.56°C, Humidity: 48.69%
+Temperature: 28.53°C, Humidity: 48.67%
+Temperature: 28.54°C, Humidity: 48.64%
+Temperature: 28.54°C, Humidity: 48.61%
+Temperature: 28.54°C, Humidity: 48.55%
+Temperature: 28.53°C, Humidity: 48.52%
+Temperature: 28.53°C, Humidity: 48.46%
+Temperature: 28.56°C, Humidity: 48.42%
+Temperature: 28.53°C, Humidity: 48.36%
+Temperature: 28.50°C, Humidity: 48.29%
+Temperature: 28.50°C, Humidity: 48.23%
+Temperature: 28.51°C, Humidity: 48.22%
+Temperature: 28.50°C, Humidity: 48.17%
+Temperature: 28.49°C, Humidity: 48.22%
+Temperature: 28.50°C, Humidity: 48.19%
+Temperature: 28.47°C, Humidity: 48.23%
+Temperature: 28.44°C, Humidity: 48.19%
+Temperature: 28.46°C, Humidity: 48.16%
+Temperature: 28.44°C, Humidity: 48.13%
+Temperature: 28.47°C, Humidity: 48.11%
+Temperature: 28.46°C, Humidity: 48.09%
+Temperature: 28.46°C, Humidity: 48.09%
+Temperature: 28.47°C, Humidity: 48.07%
+Temperature: 28.43°C, Humidity: 48.06%
+Temperature: 28.44°C, Humidity: 48.01%
+Temperature: 28.44°C, Humidity: 48.04%
+Temperature: 28.42°C, Humidity: 48.00%
+Temperature: 28.42°C, Humidity: 48.04%
+Temperature: 28.37°C, Humidity: 48.19%
+Temperature: 28.37°C, Humidity: 48.39%
+Temperature: 28.33°C, Humidity: 48.50%
+Temperature: 28.35°C, Humidity: 48.65%
+Temperature: 28.33°C, Humidity: 48.71%
+Temperature: 28.29°C, Humidity: 48.68%
+Temperature: 28.29°C, Humidity: 48.61%
+Temperature: 28.30°C, Humidity: 48.68%
+Temperature: 28.26°C, Humidity: 48.61%
+Temperature: 28.23°C, Humidity: 48.65%
+Temperature: 28.22°C, Humidity: 48.58%
+Temperature: 28.20°C, Humidity: 48.53%
+Temperature: 28.20°C, Humidity: 48.52%
+Temperature: 28.19°C, Humidity: 48.58%
+Temperature: 28.16°C, Humidity: 48.62%
+Temperature: 28.16°C, Humidity: 48.71%
+Temperature: 28.16°C, Humidity: 48.79%
+Temperature: 28.12°C, Humidity: 48.86%
+Temperature: 28.12°C, Humidity: 48.93%
+Temperature: 28.09°C, Humidity: 49.05%
+Temperature: 28.07°C, Humidity: 49.07%
+Temperature: 28.08°C, Humidity: 49.03%
+Temperature: 28.03°C, Humidity: 49.03%
+Temperature: 27.92°C, Humidity: 49.04%
+Temperature: 27.88°C, Humidity: 49.17%
+Temperature: 27.85°C, Humidity: 49.32%
+Temperature: 27.82°C, Humidity: 49.38%
+Temperature: 27.81°C, Humidity: 49.54%
+Temperature: 27.78°C, Humidity: 49.64%
+Temperature: 27.71°C, Humidity: 49.75%
+Temperature: 27.65°C, Humidity: 49.90%
+Temperature: 27.62°C, Humidity: 49.99%
+Temperature: 27.64°C, Humidity: 50.08%
+Temperature: 27.62°C, Humidity: 50.17%
+Temperature: 27.54°C, Humidity: 50.27%
+Temperature: 27.54°C, Humidity: 50.33%
+Temperature: 27.50°C, Humidity: 50.52%
+Temperature: 27.52°C, Humidity: 50.90%
+Temperature: 27.51°C, Humidity: 51.13%
+Temperature: 27.48°C, Humidity: 51.18%
+Temperature: 27.45°C, Humidity: 51.30%
+Temperature: 27.44°C, Humidity: 51.51%
+Temperature: 27.45°C, Humidity: 51.74%
+Temperature: 27.44°C, Humidity: 51.83%
+Temperature: 27.44°C, Humidity: 51.92%
+Temperature: 27.43°C, Humidity: 51.90%
+Temperature: 27.40°C, Humidity: 51.78%
+Temperature: 27.40°C, Humidity: 51.69%
+Temperature: 27.40°C, Humidity: 51.62%
+Temperature: 27.36°C, Humidity: 51.67%
+Temperature: 27.36°C, Humidity: 51.66%
+Temperature: 27.37°C, Humidity: 51.77%
+Temperature: 27.36°C, Humidity: 52.00%
+Temperature: 27.36°C, Humidity: 52.18%
+Temperature: 27.38°C, Humidity: 52.28%
+Temperature: 27.38°C, Humidity: 52.17%
+Temperature: 27.36°C, Humidity: 52.09%
+Temperature: 27.34°C, Humidity: 52.15%
+Temperature: 27.37°C, Humidity: 52.38%
+Temperature: 27.31°C, Humidity: 52.57%
+Temperature: 27.34°C, Humidity: 52.66%
+Temperature: 27.33°C, Humidity: 52.66%
+Temperature: 27.31°C, Humidity: 52.72%
+Temperature: 27.34°C, Humidity: 52.65%
+Temperature: 27.34°C, Humidity: 52.56%
+Temperature: 27.33°C, Humidity: 52.38%
+Temperature: 27.31°C, Humidity: 52.26%
+Temperature: 27.30°C, Humidity: 52.35%
+Temperature: 27.30°C, Humidity: 52.73%
+Temperature: 27.30°C, Humidity: 52.86%
+Temperature: 27.30°C, Humidity: 52.94%
