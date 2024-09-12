@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "scan",
-    "project_version":    "fd04917-dirty",
+    "project_version":    "4aee5a49-dirty",
     "project_path":       "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/1_scan_ID",
     "idf_path":           "C:/Users/DNK133/ESP/v5.3/esp-idf",
     "build_dir":          "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/1_scan_ID/build",
