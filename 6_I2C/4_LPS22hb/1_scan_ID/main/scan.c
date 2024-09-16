@@ -7,7 +7,7 @@
 
 #define SDA_PIN 18
 #define SCL_PIN 19
-#define SENSOR_ID_REG 0x0F  // WHO_AM_I register
+#define SENSOR_ID_REG 0x0F  // WHO_AM_I register default
 
 static char tag[] = "i2cscanner";
 

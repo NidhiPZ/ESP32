@@ -1,0 +1,179 @@
+j%�(35) boot: chip revision: v3.0[0m
+[0;32mI �ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep  3 2024 12:21:40[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09ccch ( 40140) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019cf4 vaddr=3ffb0000 size=02354h (  9044) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001c050 vaddr=40080000 size=03fc8h ( 16328) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14aach ( 84652) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00034ad4 vaddr=40083fc8 size=08e44h ( 36420) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (194) cpu_start: Multicore app[0m
+[0;32mI (203) cpu_start: Pro cpu start user code[0m
+[0;32mI (203) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (203) app_init: Application information:[0m
+[0;32mI (206) app_init: Project name:     interrupt[0m
+[0;32mI (211) app_init: App version:      1[0m
+[0;32mI (215) app_init: Compile time:     Sep  3 2024 12:20:18[0m
+[0;32mI (221) app_init: ELF file SHA256:  914f0e8f1...[0m
+[0;32mI (226) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (231) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (236) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (241) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB2C20 len 0002D3E0 (180 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 4008CE0C len 000131F4 (76 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+GPIO interrupt example setup complete.
+[0;32mI (316) main_task: Returned from app_main()[0m
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+Executing action: app-flash
+Running ninja in directory D:\Nidhi\ESP32\2_Interrupt\build
+Executing "ninja app-flash"...
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/interrupt.c.obj
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable interrupt.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP32/2_Interrupt/build/interrupt.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP32\2_Interrupt\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP32/2_Interrupt/build/partition_table/partition-table.bin D:/Nidhi/ESP32/2_Interrupt/build/interrupt.bin"
+interrupt.bin binary size 0x2d950 bytes. Smallest app partition is 0x100000 bytes. 0xd26b0 bytes (82%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\esptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 interrupt.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x0003dfff...
+Compressed 186704 bytes to 99193...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001c7e4... (28 %)
+Writing at 0x00022230... (42 %)
+Writing at 0x00028135... (57 %)
+Writing at 0x0002f8e6... (71 %)
+Writing at 0x00036e49... (85 %)
+Writing at 0x0003d3e5... (100 %)
+Wrote 186704 bytes (99193 compressed) at 0x00010000 in 3.1 seconds (effective 480.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP32/2_Interrupt/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"
+Done
+)B��J���� chip revision: v3.0[0m
+[0;32m�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep  3 2024 12:21:40[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09ccch ( 40140) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019cf4 vaddr=3ffb0000 size=02354h (  9044) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001c050 vaddr=40080000 size=03fc8h ( 16328) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14ab4h ( 84660) map[0m
+[0;32mI (161) esp_image: segment 4: paddr=00034adc vaddr=40083fc8 size=08e44h ( 36420) load[0m
+[0;32mI (182) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (182) boot: Disabling RNG early entropy source...[0m
+[0;32mI (194) cpu_start: Multicore app[0m
+[0;32mI (203) cpu_start: Pro cpu start user code[0m
+[0;32mI (203) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (203) app_init: Application information:[0m
+[0;32mI (206) app_init: Project name:     interrupt[0m
+[0;32mI (211) app_init: App version:      1[0m
+[0;32mI (215) app_init: Compile time:     Sep  3 2024 12:20:18[0m
+[0;32mI (221) app_init: ELF file SHA256:  4982378be...[0m
+[0;32mI (226) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (231) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (236) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (241) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB2C20 len 0002D3E0 (180 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 4008CE0C len 000131F4 (76 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+GPIO interrupt example setup complete.
+[0;32mI (316) main_task: Returned from app_main()[0m
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF
+GPIO[0] intr, LED ON
+GPIO[0] LED OFF

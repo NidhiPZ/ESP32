@@ -1,0 +1,7 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/2_read_LPS22Hb/build/CMakeFiles/CMakeOutput.log".
+[0/1] Re-running CMake...
+FAILED: build.ninja 
+C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SD:\Nidhi\ESP32\6_I2C\4_LPS22hb\2_read_LPS22Hb -BD:\Nidhi\ESP32\6_I2C\4_LPS22hb\2_read_LPS22Hb\build

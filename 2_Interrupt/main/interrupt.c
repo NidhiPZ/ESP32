@@ -32,8 +32,8 @@ static void gpio_task_example(void* arg)
             gpio_set_level(LED_GPIO, 1);
             printf("GPIO[%ld] intr, LED ON\n", io_num);
 
-            // Wait for 5 seconds
-            vTaskDelay(5000 / portTICK_PERIOD_MS);
+            // Wait for 1 seconds
+          vTaskDelay(1000 / portTICK_PERIOD_MS);
 
             // Turn off the LED after the delay
             gpio_set_level(LED_GPIO, 0);
@@ -50,8 +50,8 @@ void app_main(void)
 
     // Initialize the GPIO for the button
     gpio_set_direction(BUTTON_GPIO, GPIO_MODE_INPUT);
-    //gpio_set_pull_mode(BUTTON_GPIO, GPIO_PULLUP_ONLY); // Use pull-up resistor
-    gpio_set_intr_type(BUTTON_GPIO, GPIO_INTR_ANYEDGE); // Trigger on falling edge
+    gpio_set_pull_mode(BUTTON_GPIO, GPIO_PULLUP_ONLY); // Use pull-up resistor
+    gpio_set_intr_type(BUTTON_GPIO, GPIO_INTR_POSEDGE); // Trigger on rising edge
 
     // Create a queue to handle GPIO events
     gpio_evt_queue = xQueueCreate(10, sizeof(uint32_t));
