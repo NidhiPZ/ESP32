@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/tmp"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src"
-  "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/tmp"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src"
+  "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/dnk133/Desktop/Nidhi/ESP32/2_Interrupt/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

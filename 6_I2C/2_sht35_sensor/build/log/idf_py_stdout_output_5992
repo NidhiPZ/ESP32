@@ -1,217 +1,40 @@
-�+
-B��J���� chip revision: v3.0[0m
-[0;32mI (40ets Jul 29 2019 12:21:46
-
-rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
-configsip: 0, SPIWP:0xee
-clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
-mode:DIO, clock div:2
-load:0x3fff0030,len:7176
-load:0x40078000,len:15564
-ho 0 tail 12 room 4
-load:0x40080400,len:4
-load:0x40080404,len:3904
-entry 0x40080640
-[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
-[0;32mI (31) boot: compile time Sep 10 2024 16:01:13[0m
-[0;32mI (31) boot: Multicore bootloader[0m
-[0;32mI (36) boot: chip revision: v3.0[0m
-[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
-[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
-[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
-[0;32mI (53) boot: Enabling RNG early entropy source...[0m
-[0;32mI (59) boot: Partition Table:[0m
-[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (92) boot: End of partition table[0m
-[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ab50h ( 43856) map[0m
-[0;32mI (120) esp_image: segment 1: paddr=0001ab78 vaddr=3ffb0000 size=02384h (  9092) load[0m
-[0;32mI (123) esp_image: segment 2: paddr=0001cf04 vaddr=40080000 size=03114h ( 12564) load[0m
-[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=15e34h ( 89652) map[0m
-[0;32mI (165) esp_image: segment 4: paddr=00035e5c vaddr=40083114 size=0aedch ( 44764) load[0m
-[0;32mI (189) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (190) boot: Disabling RNG early entropy source...[0m
-[0;32mI (201) cpu_start: Multicore app[0m
-[0;32mI (210) cpu_start: Pro cpu start user code[0m
-[0;32mI (210) cpu_start: cpu freq: 160000000 Hz[0m
-[0;32mI (210) app_init: Application information:[0m
-[0;32mI (213) app_init: Project name:     temp_humidity[0m
-[0;32mI (218) app_init: App version:      3f7272a-dirty[0m
-[0;32mI (224) app_init: Compile time:     Sep 10 2024 15:57:06[0m
-[0;32mI (230) app_init: ELF file SHA256:  21f89dc56...[0m
-[0;32mI (235) app_init: ESP-IDF:          v5.3-dirty[0m
-[0;32mI (240) efuse_init: Min chip rev:     v0.0[0m
-[0;32mI (245) efuse_init: Max chip rev:     v3.99 [0m
-[0;32mI (250) efuse_init: Chip rev:         v3.0[0m
-[0;32mI (255) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (262) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
-[0;32mI (268) heap_init: At 3FFB2C58 len 0002D3A8 (180 KiB): DRAM[0m
-[0;32mI (274) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
-[0;32mI (280) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
-[0;32mI (287) heap_init: At 4008E000 len 00012000 (72 KiB): IRAM[0m
-[0;32mI (295) spi_flash: detected chip: generic[0m
-[0;32mI (298) spi_flash: flash io: dio[0m
-[0;33mW (302) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
-[0;33mW (315) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
-[0;32mI (326) main_task: Started on CPU0[0m
-[0;32mI (336) main_task: Calling app_main()[0m
-Temperature: 27.19°C, Humidity: 51.02%
-Temperature: 27.17°C, Humidity: 51.06%
-Temperature: 27.17°C, Humidity: 51.05%
-Temperature: 27.16°C, Humidity: 51.06%
-Temperature: 27.17°C, Humidity: 51.09%
-Temperature: 27.20°C, Humidity: 51.24%
-[0;31mE (13686) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-[0;31mE (15686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (17686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (19686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (21686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (23686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (25686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (27686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (29686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (31686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (33686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (35686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (37686) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (40736) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-[0;31mE (42736) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-Temperature: 27.45°C, Humidity: 51.31%
-Temperature: 27.44°C, Humidity: 51.21%
-Temperature: 27.48°C, Humidity: 51.07%
-Temperature: 27.47°C, Humidity: 51.01%
-Temperature: 27.45°C, Humidity: 50.93%
-Temperature: 27.45°C, Humidity: 50.89%
-Temperature: 27.43°C, Humidity: 50.92%
-Temperature: 27.45°C, Humidity: 50.87%
-Temperature: 27.40°C, Humidity: 50.89%
-Temperature: 27.44°C, Humidity: 50.87%
-Temperature: 27.44°C, Humidity: 50.91%
-[0;31mE (67286) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (69286) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (71286) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (73286) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (76336) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-[0;31mE (79386) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-[0;31mE (81386) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-Temperature: 27.44°C, Humidity: 51.27%
-Temperature: 27.47°C, Humidity: 51.21%
-Temperature: 27.47°C, Humidity: 51.17%
-Temperature: 27.48°C, Humidity: 51.14%
-Temperature: 27.47°C, Humidity: 51.10%
-Temperature: 27.48°C, Humidity: 51.09%
-Temperature: 27.45°C, Humidity: 51.08%
-Temperature: 27.45°C, Humidity: 51.04%
-Temperature: 27.45°C, Humidity: 51.04%
-Temperature: 27.45°C, Humidity: 50.99%
-Temperature: 27.45°C, Humidity: 50.96%
-Temperature: 27.44°C, Humidity: 50.91%
-Temperature: 27.44°C, Humidity: 50.90%
-Temperature: 27.44°C, Humidity: 50.86%
-Temperature: 27.44°C, Humidity: 50.86%
-Temperature: 27.38°C, Humidity: 50.83%
-Temperature: 27.43°C, Humidity: 50.78%
-Temperature: 27.43°C, Humidity: 50.80%
-Temperature: 27.43°C, Humidity: 50.75%
-Temperature: 27.41°C, Humidity: 50.83%
-Temperature: 27.43°C, Humidity: 50.88%
-Temperature: 27.41°C, Humidity: 51.01%
-Temperature: 27.40°C, Humidity: 51.04%
-Temperature: 27.43°C, Humidity: 51.10%
-Temperature: 27.41°C, Humidity: 51.24%
-Temperature: 27.43°C, Humidity: 51.28%
-Temperature: 27.41°C, Humidity: 51.35%
-Temperature: 27.43°C, Humidity: 51.38%
-Temperature: 27.44°C, Humidity: 51.30%
-Temperature: 27.43°C, Humidity: 51.32%
-Temperature: 27.44°C, Humidity: 51.31%
-Temperature: 27.41°C, Humidity: 51.24%
-Temperature: 27.43°C, Humidity: 51.18%
-Temperature: 27.44°C, Humidity: 51.13%
-Temperature: 27.43°C, Humidity: 51.05%
-Temperature: 27.43°C, Humidity: 51.02%
-Temperature: 27.44°C, Humidity: 50.97%
-Temperature: 27.41°C, Humidity: 50.94%
-Temperature: 27.41°C, Humidity: 50.93%
-Temperature: 27.40°C, Humidity: 50.86%
-Temperature: 27.40°C, Humidity: 50.84%
-Temperature: 27.41°C, Humidity: 51.02%
-[0;31mE (169486) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (171486) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (173486) SHT3X: Error in writing I2C command[0m
-Failed to read from SHT3x sensor
-[0;31mE (176536) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-Temperature: 27.48°C, Humidity: 52.32%
-Temperature: 27.48°C, Humidity: 52.05%
-Temperature: 27.47°C, Humidity: 51.70%
-Temperature: 27.48°C, Humidity: 51.56%
-Temperature: 27.51°C, Humidity: 51.64%
-Temperature: 27.50°C, Humidity: 51.79%
-Temperature: 27.52°C, Humidity: 52.21%
-Temperature: 27.51°C, Humidity: 52.39%
-Temperature: 27.52°C, Humidity: 52.32%
-Temperature: 27.51°C, Humidity: 52.21%
-Temperature: 27.50°C, Humidity: 52.15%
-Temperature: 27.51°C, Humidity: 52.10%
-[0;31mE (204186) SHT3X: Error in reading I2C response[0m
-Failed to read from SHT3x sensor
-Temperature: 27.51°C, Humidity: 52.51%
-Temperature: 27.55°C, Humidity: 52.59%
-Temperature: 27.55°C, Humidity: 52.38%
-Temperature: 27.55°C, Humidity: 51.91%
-Temperature: 27.54°C, Humidity: 51.64%
-Temperature: 27.55°C, Humidity: 51.48%
-Temperature: 27.55°C, Humidity: 51.76%
-Temperature: 27.58°C, Humidity: 51.53%
-Temperature: 27.60°C, Humidity: 51.36%
-Temperature: 27.64°C, Humidity: 51.25%
-Temperature: 27.64°C, Humidity: 51.14%
-Temperature: 27.65°C, Humidity: 50.97%
-Temperature: 27.67°C, Humidity: 50.90%
-Temperature: 27.71°C, Humidity: 50.80%
-Temperature: 27.72°C, Humidity: 50.64%
-Temperature: 27.74°C, Humidity: 50.60%
-Temperature: 27.75°C, Humidity: 50.42%
-Temperature: 27.77°C, Humidity: 50.38%
-Temperature: 27.82°C, Humidity: 50.31%
-Temperature: 27.84°C, Humidity: 50.17%
-Temperature: 27.87°C, Humidity: 50.11%
-Temperature: 27.87°C, Humidity: 50.04%
-Temperature: 27.89°C, Humidity: 49.92%
-Temperature: 27.95°C, Humidity: 49.86%
-Temperature: 27.91°C, Humidity: 49.80%
-Temperature: 27.95°C, Humidity: 49.78%
-Temperature: 27.96°C, Humidity: 49.71%
-Temperature: 28.00°C, Humidity: 49.66%
-Temperature: 28.02°C, Humidity: 49.56%
-Temperature: 28.03°C, Humidity: 49.52%
-Temperature: 28.07°C, Humidity: 49.50%
-Temperature: 28.09°C, Humidity: 49.47%
-Temperature: 28.05°C, Humidity: 49.45%
+-- Found Git: C:/Users/DNK133/.espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/Nidhi/ESP32/6_I2C/2_sht35_sensor/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "temp_humidity" version: 3f7272a-dirty
+-- Adding linker script D:/Nidhi/ESP32/6_I2C/2_sht35_sensor/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/Nidhi/ESP32/6_I2C/2_sht35_sensor/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/DNK133/ESP/v5.3/esp-idf/components/app_trace C:/Users/DNK133/ESP/v5.3/esp-idf/components/app_update C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support C:/Users/DNK133/ESP/v5.3/esp-idf/components/bt C:/Users/DNK133/ESP/v5.3/esp-idf/components/cmock C:/Users/DNK133/ESP/v5.3/esp-idf/components/console C:/Users/DNK133/ESP/v5.3/esp-idf/components/cxx C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp-tls C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_coex C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ana_cmpr C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_cam C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_dac C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gpio C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gptimer C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2c C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2s C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_isp C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_jpeg C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ledc C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_mcpwm C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_parlio C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_pcnt C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ppa C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_rmt C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdio C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdm C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdmmc C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdspi C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_spi C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_tsens C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_uart C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_usb_serial_jtag C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_eth C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_event C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_gdbstub C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hid C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_client C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_server C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_ota C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_server C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_lcd C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_local_ctrl C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_mm C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_netif C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_netif_stack C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_partition C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_phy C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_pm C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_psram C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_ringbuf C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_timer C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_vfs_console C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi C:/Users/DNK133/ESP/v5.3/esp-idf/components/espcoredump C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py C:/Users/DNK133/ESP/v5.3/esp-idf/components/fatfs C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal C:/Users/DNK133/ESP/v5.3/esp-idf/components/heap C:/Users/DNK133/ESP/v5.3/esp-idf/components/http_parser C:/Users/DNK133/ESP/v5.3/esp-idf/components/idf_test C:/Users/DNK133/ESP/v5.3/esp-idf/components/ieee802154 C:/Users/DNK133/ESP/v5.3/esp-idf/components/json C:/Users/DNK133/ESP/v5.3/esp-idf/components/log C:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip D:/Nidhi/ESP32/6_I2C/2_sht35_sensor/main C:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls C:/Users/DNK133/ESP/v5.3/esp-idf/components/mqtt C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib C:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_flash C:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_sec_provider C:/Users/DNK133/ESP/v5.3/esp-idf/components/openthread C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table C:/Users/DNK133/ESP/v5.3/esp-idf/components/perfmon C:/Users/DNK133/ESP/v5.3/esp-idf/components/protobuf-c C:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm C:/Users/DNK133/ESP/v5.3/esp-idf/components/pthread C:/Users/DNK133/ESP/v5.3/esp-idf/components/sdmmc C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash C:/Users/DNK133/ESP/v5.3/esp-idf/components/spiffs C:/Users/DNK133/ESP/v5.3/esp-idf/components/tcp_transport C:/Users/DNK133/ESP/v5.3/esp-idf/components/ulp C:/Users/DNK133/ESP/v5.3/esp-idf/components/unity C:/Users/DNK133/ESP/v5.3/esp-idf/components/usb C:/Users/DNK133/ESP/v5.3/esp-idf/components/vfs C:/Users/DNK133/ESP/v5.3/esp-idf/components/wear_levelling C:/Users/DNK133/ESP/v5.3/esp-idf/components/wifi_provisioning C:/Users/DNK133/ESP/v5.3/esp-idf/components/wpa_supplicant C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Nidhi/ESP32/6_I2C/2_sht35_sensor/build

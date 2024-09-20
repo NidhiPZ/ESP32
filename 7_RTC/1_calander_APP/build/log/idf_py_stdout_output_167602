@@ -1,0 +1,5 @@
+[1/4] cd /home/dnk133/Desktop/Nidhi/ESP32/7_RTC/1_calander_APP/build/esp-idf/esptool_py && /home/dnk133/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/dnk133/esp/v5.3.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/dnk133/Desktop/Nidhi/ESP32/7_RTC/1_calander_APP/build/partition_table/partition-table.bin /home/dnk133/Desktop/Nidhi/ESP32/7_RTC/1_calander_APP/build/main.bin
+main.bin binary size 0x30170 bytes. Smallest app partition is 0x100000 bytes. 0xcfe90 bytes (81%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/dnk133/Desktop/Nidhi/ESP32/7_RTC/1_calander_APP/build/bootloader/esp-idf/esptool_py && /home/dnk133/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/dnk133/esp/v5.3.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/dnk133/Desktop/Nidhi/ESP32/7_RTC/1_calander_APP/build/bootloader/bootloader.bin
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
