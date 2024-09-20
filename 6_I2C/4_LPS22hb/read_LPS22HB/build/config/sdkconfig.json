@@ -1005,7 +1005,11 @@
     "SOC_TIMER_GROUP_SUPPORT_APB": true,
     "SOC_TIMER_GROUP_TIMERS_PER_GROUP": 2,
     "SOC_TIMER_GROUP_TOTAL_TIMERS": 4,
+<<<<<<< HEAD
     "SOC_TOUCH_SAMPLE_CFG_NUM": 1,
+=======
+    "SOC_TOUCH_SAMPLER_NUM": 1,
+>>>>>>> myorigin/master
     "SOC_TOUCH_SENSOR_NUM": 10,
     "SOC_TOUCH_SENSOR_SUPPORTED": true,
     "SOC_TOUCH_SENSOR_VERSION": 1,
@@ -1090,9 +1094,12 @@
     "SPI_MASTER_ISR_IN_IRAM": true,
     "SPI_SLAVE_IN_IRAM": false,
     "SPI_SLAVE_ISR_IN_IRAM": true,
+<<<<<<< HEAD
     "TOUCH_CTRL_FUNC_IN_IRAM": false,
     "TOUCH_ENABLE_DEBUG_LOG": false,
     "TOUCH_ISR_IRAM_SAFE": false,
+=======
+>>>>>>> myorigin/master
     "TWAI_ERRATA_FIX_BUS_OFF_REC": true,
     "TWAI_ERRATA_FIX_LISTEN_ONLY_DOM": true,
     "TWAI_ERRATA_FIX_RX_FIFO_CORRUPT": true,

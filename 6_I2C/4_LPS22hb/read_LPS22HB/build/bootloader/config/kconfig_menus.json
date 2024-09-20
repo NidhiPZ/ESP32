@@ -1753,8 +1753,13 @@
         "children": [],
         "depends_on": null,
         "help": null,
+<<<<<<< HEAD
         "id": "SOC_TOUCH_SAMPLE_CFG_NUM",
         "name": "SOC_TOUCH_SAMPLE_CFG_NUM",
+=======
+        "id": "SOC_TOUCH_SAMPLER_NUM",
+        "name": "SOC_TOUCH_SAMPLER_NUM",
+>>>>>>> myorigin/master
         "range": null,
         "title": null,
         "type": "int"
@@ -2483,6 +2488,19 @@
         "children": [],
         "depends_on": null,
         "help": null,
+<<<<<<< HEAD
+=======
+        "id": "IDF_TARGET_LINUX",
+        "name": "IDF_TARGET_LINUX",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
+>>>>>>> myorigin/master
         "id": "IDF_TARGET_ESP32",
         "name": "IDF_TARGET_ESP32",
         "range": null,
@@ -6980,7 +6998,11 @@
                             {
                                 "children": [],
                                 "depends_on": "ESP_INT_WDT",
+<<<<<<< HEAD
                                 "help": "The timeout of the watchdog, in milliseconds. Make this higher than the FreeRTOS tick rate.",
+=======
+                                "help": "The timeout of the watchdog, in miliseconds. Make this higher than the FreeRTOS tick rate.",
+>>>>>>> myorigin/master
                                 "id": "ESP_INT_WDT_TIMEOUT_MS",
                                 "name": "ESP_INT_WDT_TIMEOUT_MS",
                                 "range": [
@@ -7107,7 +7129,11 @@
                                 "type": "bool"
                             }
                         ],
+<<<<<<< HEAD
                         "depends_on": "SOC_XT_WDT_SUPPORTED && (ESP_SYSTEM_RTC_EXT_OSC || ESP_SYSTEM_RTC_EXT_XTAL)",
+=======
+                        "depends_on": "!IDF_TARGET_ESP32 && (ESP_SYSTEM_RTC_EXT_OSC || ESP_SYSTEM_RTC_EXT_XTAL)",
+>>>>>>> myorigin/master
                         "help": "This watchdog timer can detect oscillation failure of the XTAL32K_CLK. When such a failure\nis detected the hardware can be set up to automatically switch to BACKUP32K_CLK and generate\nan interrupt.",
                         "id": "ESP_XT_WDT",
                         "name": "ESP_XT_WDT",

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_i2c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/usr/local")
+=======
+# Install script for directory: C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2c
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
+>>>>>>> myorigin/master
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +42,10 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "/home/dnk133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
+=======
+  set(CMAKE_OBJDUMP "C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
+>>>>>>> myorigin/master
 endif()
 

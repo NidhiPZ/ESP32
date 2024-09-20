@@ -1753,8 +1753,13 @@
         "children": [],
         "depends_on": null,
         "help": null,
+<<<<<<< HEAD
         "id": "SOC_TOUCH_SAMPLE_CFG_NUM",
         "name": "SOC_TOUCH_SAMPLE_CFG_NUM",
+=======
+        "id": "SOC_TOUCH_SAMPLER_NUM",
+        "name": "SOC_TOUCH_SAMPLER_NUM",
+>>>>>>> myorigin/master
         "range": null,
         "title": null,
         "type": "int"
@@ -2483,6 +2488,19 @@
         "children": [],
         "depends_on": null,
         "help": null,
+<<<<<<< HEAD
+=======
+        "id": "IDF_TARGET_LINUX",
+        "name": "IDF_TARGET_LINUX",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
+>>>>>>> myorigin/master
         "id": "IDF_TARGET_ESP32",
         "name": "IDF_TARGET_ESP32",
         "range": null,
@@ -6052,7 +6070,11 @@
                                     {
                                         "children": [],
                                         "depends_on": "BT_CLASSIC_ENABLED && BT_BLUEDROID_ENABLED",
+<<<<<<< HEAD
                                         "help": "Advanced Audio Distribution Profile",
+=======
+                                        "help": "Advanced Audio Distrubution Profile",
+>>>>>>> myorigin/master
                                         "id": "BT_A2DP_ENABLE",
                                         "name": "BT_A2DP_ENABLE",
                                         "range": null,
@@ -6153,7 +6175,11 @@
                             {
                                 "children": [],
                                 "depends_on": "BT_HFP_AUDIO_DATA_PATH_HCI && BT_BLUEDROID_ENABLED",
+<<<<<<< HEAD
                                 "help": "This enables Wide Band Speech. Should disable it when SCO data path is PCM.\nOtherwise there will be no data transmitted via GPIOs.",
+=======
+                                "help": "This enables Wide Band Speech. Should disable it when SCO data path is PCM.\nOtherwise there will be no data transmited via GPIOs.",
+>>>>>>> myorigin/master
                                 "id": "BT_HFP_WBS_ENABLE",
                                 "name": "BT_HFP_WBS_ENABLE",
                                 "range": null,
@@ -6377,6 +6403,7 @@
                                                 "range": null,
                                                 "title": "Slave enable connection parameters update during pairing",
                                                 "type": "bool"
+<<<<<<< HEAD
                                             },
                                             {
                                                 "children": [],
@@ -6387,6 +6414,8 @@
                                                 "range": null,
                                                 "title": "Reset device identity when all bonding records are deleted",
                                                 "type": "bool"
+=======
+>>>>>>> myorigin/master
                                             }
                                         ],
                                         "depends_on": "BT_BLE_ENABLED && BT_BLUEDROID_ENABLED",
@@ -8763,6 +8792,7 @@
                                 "type": "bool"
                             },
                             {
+<<<<<<< HEAD
                                 "children": [],
                                 "depends_on": "BT_NIMBLE_ENABLED",
                                 "help": "There are tracking risks associated with using a fixed or static IRK.\nIf enabled this option, Bluedroid will assign a new randomly-generated IRK\nwhen all pairing and bonding records are deleted. This would decrease the ability\nof a previously paired peer to be used to determine whether a device\nwith which it previously shared an IRK is within range.",
@@ -8773,6 +8803,8 @@
                                 "type": "bool"
                             },
                             {
+=======
+>>>>>>> myorigin/master
                                 "children": [
                                     {
                                         "children": [],
@@ -14166,6 +14198,7 @@
                 "children": [
                     {
                         "children": [],
+<<<<<<< HEAD
                         "depends_on": "SOC_TOUCH_SENSOR_SUPPORTED",
                         "help": "Place touch sensor oneshot scanning and continuous scanning functions into IRAM,\nso that these function can be IRAM-safe and able to be called when the flash cache is disabled.\nEnabling this option can improve driver performance as well.",
                         "id": "TOUCH_CTRL_FUNC_IN_IRAM",
@@ -14204,6 +14237,8 @@
                 "children": [
                     {
                         "children": [],
+=======
+>>>>>>> myorigin/master
                         "depends_on": "SOC_TEMP_SENSOR_SUPPORTED",
                         "help": "whether to enable the debug log message for temperature sensor driver.\nNote that, this option only controls the temperature sensor driver log, won't affect other drivers.",
                         "id": "TEMP_SENSOR_ENABLE_DEBUG_LOG",
@@ -17580,7 +17615,11 @@
                             {
                                 "children": [],
                                 "depends_on": "ESP_INT_WDT",
+<<<<<<< HEAD
                                 "help": "The timeout of the watchdog, in milliseconds. Make this higher than the FreeRTOS tick rate.",
+=======
+                                "help": "The timeout of the watchdog, in miliseconds. Make this higher than the FreeRTOS tick rate.",
+>>>>>>> myorigin/master
                                 "id": "ESP_INT_WDT_TIMEOUT_MS",
                                 "name": "ESP_INT_WDT_TIMEOUT_MS",
                                 "range": [
@@ -17707,7 +17746,11 @@
                                 "type": "bool"
                             }
                         ],
+<<<<<<< HEAD
                         "depends_on": "SOC_XT_WDT_SUPPORTED && (ESP_SYSTEM_RTC_EXT_OSC || ESP_SYSTEM_RTC_EXT_XTAL)",
+=======
+                        "depends_on": "!IDF_TARGET_ESP32 && (ESP_SYSTEM_RTC_EXT_OSC || ESP_SYSTEM_RTC_EXT_XTAL)",
+>>>>>>> myorigin/master
                         "help": "This watchdog timer can detect oscillation failure of the XTAL32K_CLK. When such a failure\nis detected the hardware can be set up to automatically switch to BACKUP32K_CLK and generate\nan interrupt.",
                         "id": "ESP_XT_WDT",
                         "name": "ESP_XT_WDT",
@@ -19429,6 +19472,7 @@
                     },
                     {
                         "children": [],
+<<<<<<< HEAD
                         "depends_on": "ESP_COREDUMP_DATA_FORMAT_ELF && !IDF_TARGET_ESP32C5",
                         "help": "Storing these sections can help with easier debugging and troubleshooting.\nHowever, additional storage space will be required in the core dump partition.\nAt least 128KB should be reserved, but the actual amount required may vary based\non the application's DRAM usage.\nNote that sections located in external RAM will not be stored.",
                         "id": "ESP_COREDUMP_CAPTURE_DRAM",
@@ -19439,6 +19483,8 @@
                     },
                     {
                         "children": [],
+=======
+>>>>>>> myorigin/master
                         "depends_on": "ESP_COREDUMP_ENABLE_TO_FLASH",
                         "help": "When enabled, if any data are found on the flash core dump partition,\nthey will be checked by calculating their checksum.",
                         "id": "ESP_COREDUMP_CHECK_BOOT",
@@ -19510,7 +19556,11 @@
                     {
                         "children": [],
                         "depends_on": "ESP_COREDUMP_ENABLE",
+<<<<<<< HEAD
                         "help": "Size of the memory to be reserved for core dump stack. If 0 core dump process will run on\nthe stack of crashed task/ISR, otherwise special stack will be allocated.\nTo ensure that core dump itself will not overflow task/ISR stack set this to the value around 1300-1800\ndepending on the chosen checksum calculation method. SHA256 method needs more stack space than CRC32.\nNOTE: It eats DRAM.",
+=======
+                        "help": "Size of the memory to be reserved for core dump stack. If 0 core dump process will run on\nthe stack of crashed task/ISR, otherwise special stack will be allocated.\nTo ensure that core dump itself will not overflow task/ISR stack set this to the value above 800.\nNOTE: It eats DRAM.",
+>>>>>>> myorigin/master
                         "id": "ESP_COREDUMP_STACK_SIZE",
                         "name": "ESP_COREDUMP_STACK_SIZE",
                         "range": null,
@@ -25895,6 +25945,7 @@
                         "type": "choice"
                     },
                     {
+<<<<<<< HEAD
                         "children": [
                             {
                                 "children": [],
@@ -25923,6 +25974,8 @@
                         "type": "menu"
                     },
                     {
+=======
+>>>>>>> myorigin/master
                         "children": [],
                         "depends_on": "OPENTHREAD_RADIO",
                         "help": "Select this to enable OpenThread NCP vendor commands.",
@@ -27449,6 +27502,7 @@
                                 "range": null,
                                 "title": "Enable panic handler which outputs over LP UART",
                                 "type": "bool"
+<<<<<<< HEAD
                             },
                             {
                                 "children": [],
@@ -27459,6 +27513,8 @@
                                 "range": null,
                                 "title": "Route lp_core_printf to the console HP-UART",
                                 "type": "bool"
+=======
+>>>>>>> myorigin/master
                             }
                         ],
                         "depends_on": "SOC_ULP_SUPPORTED || SOC_RISCV_COPROC_SUPPORTED || SOC_LP_CORE_SUPPORTED",

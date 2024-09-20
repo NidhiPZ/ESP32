@@ -1,5 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
+<<<<<<< HEAD
 /* Generated from: /home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
@@ -15,15 +16,55 @@
 /*
  * Automatically generated file. DO NOT EDIT.
  * Espressif IoT Development Framework (ESP-IDF) 5.3.1 Configuration Header
+=======
+/* Generated from: D:\Nidhi\ESP32\6_I2C\4_LPS22hb\read_LPS22HB\build\esp-idf\esp_system\ld\sections.ld.in */
+
+/*
+
+ * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD
+
+ *
+
+ * SPDX-License-Identifier: Apache-2.0
+
+ */
+/*
+
+ * SPDX-FileCopyrightText: 2021-2024 Espressif Systems (Shanghai) CO LTD
+
+ *
+
+ * SPDX-License-Identifier: Apache-2.0
+
+ */
+/*
+
+ * Automatically generated file. DO NOT EDIT.
+
+ * Espressif IoT Development Framework (ESP-IDF) 5.3.0 Configuration Header
+
+>>>>>>> myorigin/master
  */
        
 /* List of deprecated options */
 /* CPU instruction prefetch padding size for flash mmap scenario */
 /*
+<<<<<<< HEAD
  * PMP region granularity size
  * Software may determine the PMP granularity by writing zero to pmp0cfg, then writing all ones
  * to pmpaddr0, then reading back pmpaddr0. If G is the index of the least-significant bit set,
  * the PMP granularity is 2^G+2 bytes.
+=======
+
+ * PMP region granularity size
+
+ * Software may determine the PMP granularity by writing zero to pmp0cfg, then writing all ones
+
+ * to pmpaddr0, then reading back pmpaddr0. If G is the index of the least-significant bit set,
+
+ * the PMP granularity is 2^G+2 bytes.
+
+>>>>>>> myorigin/master
  */
 /* CPU instruction prefetch padding size for memory protection scenario */
 /* Memory alignment size for PMS */
@@ -33,8 +74,16 @@ ENTRY(call_start_cpu0);
 SECTIONS
 {
   /**
+<<<<<<< HEAD
    * RTC fast memory holds RTC wake stub code,
    * including from any source file named rtc_wake_stub*.c
+=======
+
+   * RTC fast memory holds RTC wake stub code,
+
+   * including from any source file named rtc_wake_stub*.c
+
+>>>>>>> myorigin/master
    */
   .rtc.text :
   {
@@ -46,8 +95,16 @@ SECTIONS
     _rtc_text_end = ABSOLUTE(.);
   } > rtc_iram_seg
   /**
+<<<<<<< HEAD
    * This section is required to skip rtc.text area because rtc_iram_seg and
    * rtc_data_seg are reflect the same address space on different buses.
+=======
+
+   * This section is required to skip rtc.text area because rtc_iram_seg and
+
+   * rtc_data_seg are reflect the same address space on different buses.
+
+>>>>>>> myorigin/master
    */
   .rtc.dummy :
   {
@@ -57,9 +114,19 @@ SECTIONS
     _rtc_dummy_end = ABSOLUTE(.);
   } > rtc_data_seg
   /**
+<<<<<<< HEAD
    * This section located in RTC FAST Memory area.
    * It holds data marked with RTC_FAST_ATTR attribute.
    * See the file "esp_attr.h" for more information.
+=======
+
+   * This section located in RTC FAST Memory area.
+
+   * It holds data marked with RTC_FAST_ATTR attribute.
+
+   * See the file "esp_attr.h" for more information.
+
+>>>>>>> myorigin/master
    */
   .rtc.force_fast :
   {
@@ -75,12 +142,28 @@ SECTIONS
  _rtc_force_fast_end = ABSOLUTE(.);
   } > rtc_data_seg
   /**
+<<<<<<< HEAD
    * RTC data section holds RTC wake stub
    * data/rodata, including from any source file
    * named rtc_wake_stub*.c and the data marked with
    * RTC_DATA_ATTR, RTC_RODATA_ATTR attributes.
    * The memory location of the data is dependent on
    * CONFIG_ESP32_RTCDATA_IN_FAST_MEM option.
+=======
+
+   * RTC data section holds RTC wake stub
+
+   * data/rodata, including from any source file
+
+   * named rtc_wake_stub*.c and the data marked with
+
+   * RTC_DATA_ATTR, RTC_RODATA_ATTR attributes.
+
+   * The memory location of the data is dependent on
+
+   * CONFIG_ESP32_RTCDATA_IN_FAST_MEM option.
+
+>>>>>>> myorigin/master
    */
   .rtc.data :
   {
@@ -103,12 +186,28 @@ SECTIONS
     _rtc_bss_end = ABSOLUTE(.);
   } > rtc_data_location
   /**
+<<<<<<< HEAD
    * This section holds data that should not be initialized at power up
    * and will be retained during deep sleep.
    * User data marked with RTC_NOINIT_ATTR will be placed
    * into this section. See the file "esp_attr.h" for more information.
    * The memory location of the data is dependent on
    * CONFIG_ESP32_RTCDATA_IN_FAST_MEM option.
+=======
+
+   * This section holds data that should not be initialized at power up
+
+   * and will be retained during deep sleep.
+
+   * User data marked with RTC_NOINIT_ATTR will be placed
+
+   * into this section. See the file "esp_attr.h" for more information.
+
+   * The memory location of the data is dependent on
+
+   * CONFIG_ESP32_RTCDATA_IN_FAST_MEM option.
+
+>>>>>>> myorigin/master
    */
   .rtc_noinit (NOLOAD):
   {
@@ -121,9 +220,19 @@ SECTIONS
  _rtc_noinit_end = ABSOLUTE(.);
   } > rtc_data_location
   /**
+<<<<<<< HEAD
    * This section located in RTC SLOW Memory area.
    * It holds data marked with RTC_SLOW_ATTR attribute.
    * See the file "esp_attr.h" for more information.
+=======
+
+   * This section located in RTC SLOW Memory area.
+
+   * It holds data marked with RTC_SLOW_ATTR attribute.
+
+   * See the file "esp_attr.h" for more information.
+
+>>>>>>> myorigin/master
    */
   .rtc.force_slow :
   {
@@ -136,9 +245,19 @@ SECTIONS
  _rtc_force_slow_end = ABSOLUTE(.);
   } > rtc_slow_seg
   /**
+<<<<<<< HEAD
    * This section holds RTC FAST data that should have fixed addresses.
    * The data are not initialized at power-up and are retained during deep
    * sleep.
+=======
+
+   * This section holds RTC FAST data that should have fixed addresses.
+
+   * The data are not initialized at power-up and are retained during deep
+
+   * sleep.
+
+>>>>>>> myorigin/master
    */
   .rtc_fast_reserved (NOLOAD):
   {
@@ -146,10 +265,22 @@ SECTIONS
  . = ALIGN(4); 
  _rtc_fast_reserved_start = ABSOLUTE(.);
     /**
+<<<<<<< HEAD
      * New data can only be added here to ensure existing data are not moved.
      * Because data have adhered to the end of the segment and code is relied
      * on it.
      * >> put new data here <<
+=======
+
+     * New data can only be added here to ensure existing data are not moved.
+
+     * Because data have adhered to the end of the segment and code is relied
+
+     * on it.
+
+     * >> put new data here <<
+
+>>>>>>> myorigin/master
      */
     KEEP(*(.bootloader_data_rtc_mem .bootloader_data_rtc_mem.*))
     _rtc_fast_reserved_end = ABSOLUTE(.);
@@ -158,9 +289,19 @@ SECTIONS
   ASSERT((_rtc_fast_reserved_length <= LENGTH(rtc_fast_reserved_seg)),
           "RTC FAST reserved segment data does not fit.")
   /**
+<<<<<<< HEAD
    * This section holds RTC SLOW data that should have fixed addresses.
    * The data are not initialized at power-up and are retained during deep
    * sleep.
+=======
+
+   * This section holds RTC SLOW data that should have fixed addresses.
+
+   * The data are not initialized at power-up and are retained during deep
+
+   * sleep.
+
+>>>>>>> myorigin/master
    */
   .rtc_slow_reserved (NOLOAD):
   {
@@ -168,10 +309,22 @@ SECTIONS
  . = ALIGN(4); 
  _rtc_slow_reserved_start = ABSOLUTE(.);
     /**
+<<<<<<< HEAD
      * New data can only be added here to ensure existing data are not moved.
      * Because data have adhered to the end of the segment and code is relied
      * on it.
      * >> put new data here <<
+=======
+
+     * New data can only be added here to ensure existing data are not moved.
+
+     * Because data have adhered to the end of the segment and code is relied
+
+     * on it.
+
+     * >> put new data here <<
+
+>>>>>>> myorigin/master
      */
     *(.rtc_timer_data_in_rtc_mem .rtc_timer_data_in_rtc_mem.*)
     _rtc_slow_reserved_end = ABSOLUTE(.);
@@ -399,8 +552,16 @@ SECTIONS
     _data_end = ABSOLUTE(.);
   } > dram0_0_seg
   /**
+<<<<<<< HEAD
    * This section holds data that won't be initialised when startup.
    * This section locates in External RAM region.
+=======
+
+   * This section holds data that won't be initialised when startup.
+
+   * This section locates in External RAM region.
+
+>>>>>>> myorigin/master
    */
   .ext_ram_noinit (NOLOAD) :
   {
@@ -411,10 +572,22 @@ SECTIONS
  _ext_ram_noinit_end = ABSOLUTE(.);
   } > extern_ram_seg
   /**
+<<<<<<< HEAD
    * This section holds data that should not be initialized at power up.
    * The section located in Internal SRAM memory region. The macro _NOINIT
    * can be used as attribute to place data into this section.
    * See the "esp_attr.h" file for more information.
+=======
+
+   * This section holds data that should not be initialized at power up.
+
+   * The section located in Internal SRAM memory region. The macro _NOINIT
+
+   * can be used as attribute to place data into this section.
+
+   * See the "esp_attr.h" file for more information.
+
+>>>>>>> myorigin/master
    */
   .noinit (NOLOAD):
   {
@@ -443,8 +616,16 @@ SECTIONS
  . = ALIGN(8); 
  _bss_start = ABSOLUTE(.);
     /**
+<<<<<<< HEAD
      * ldgen places all bss-related data to mapping[dram0_bss]
      * (See components/esp_system/app.lf).
+=======
+
+     * ldgen places all bss-related data to mapping[dram0_bss]
+
+     * (See components/esp_system/app.lf).
+
+>>>>>>> myorigin/master
      */
     *(.bss .bss.*)
     *(.dynbss .dynsbss .gnu.linkonce.b .gnu.linkonce.b.* .gnu.linkonce.sb .gnu.linkonce.sb.* .gnu.linkonce.sb2 .gnu.linkonce.sb2.* .sbss .sbss.* .sbss2 .sbss2.* .scommon .share.mem)
@@ -459,8 +640,16 @@ SECTIONS
   .flash.appdesc : ALIGN(0x10)
   {
     /**
+<<<<<<< HEAD
      * Mark flash.rodata start.
      * This can be used for mmu driver to maintain virtual address
+=======
+
+     * Mark flash.rodata start.
+
+     * This can be used for mmu driver to maintain virtual address
+
+>>>>>>> myorigin/master
      */
     _rodata_reserved_start = ABSOLUTE(.);
     _rodata_start = ABSOLUTE(.);
@@ -470,9 +659,19 @@ SECTIONS
     /* Should be the second. Custom app version info. */
     *(.rodata_custom_desc .rodata_custom_desc.*)
     /**
+<<<<<<< HEAD
      * Create an empty gap within this section. Thanks to this, the end of this
      * section will match .flah.rodata's begin address. Thus, both sections
      * will be merged when creating the final bin image.
+=======
+
+     * Create an empty gap within this section. Thanks to this, the end of this
+
+     * section will match .flah.rodata's begin address. Thus, both sections
+
+     * will be merged when creating the final bin image.
+
+>>>>>>> myorigin/master
      */
     . = ALIGN(ALIGNOF(.flash.rodata));
   } > default_rodata_seg
@@ -502,9 +701,19 @@ SECTIONS
     __XT_EXCEPTION_DESCS_END__ = ABSOLUTE(.);
     *(.xt_except_desc_end)
     /**
+<<<<<<< HEAD
      * C++ constructor tables.
      *
      * Excluding crtbegin.o/crtend.o since IDF doesn't use the toolchain crt.
+=======
+
+     * C++ constructor tables.
+
+     *
+
+     * Excluding crtbegin.o/crtend.o since IDF doesn't use the toolchain crt.
+
+>>>>>>> myorigin/master
      */
     
  . = ALIGN(4); 
@@ -542,15 +751,33 @@ SECTIONS
   } > default_rodata_seg
   _flash_rodata_align = ALIGNOF(.flash.rodata);
   /**
+<<<<<<< HEAD
    * This section contains all the rodata that is not used
    * at runtime, helping to avoid an increase in binary size.
+=======
+
+   * This section contains all the rodata that is not used
+
+   * at runtime, helping to avoid an increase in binary size.
+
+>>>>>>> myorigin/master
    */
   .flash.rodata_noload (NOLOAD) :
   {
     /**
+<<<<<<< HEAD
      * This symbol marks the end of flash.rodata. It can be utilized by the MMU
      * driver to maintain the virtual address.
      * NOLOAD rodata may not be included in this section.
+=======
+
+     * This symbol marks the end of flash.rodata. It can be utilized by the MMU
+
+     * driver to maintain the virtual address.
+
+     * NOLOAD rodata may not be included in this section.
+
+>>>>>>> myorigin/master
      */
     _rodata_reserved_end = ABSOLUTE(.);
     *(.rodata_wlog_debug .rodata_wlog_debug.*)
@@ -560,8 +787,16 @@ SECTIONS
   {
     _stext = .;
     /**
+<<<<<<< HEAD
      * Mark the start of flash.text.
      * This can be used by the MMU driver to maintain the virtual address.
+=======
+
+     * Mark the start of flash.text.
+
+     * This can be used by the MMU driver to maintain the virtual address.
+
+>>>>>>> myorigin/master
      */
     _instruction_reserved_start = ABSOLUTE(.);
     _text_start = ABSOLUTE(.);
@@ -602,23 +837,53 @@ SECTIONS
     *(.gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
     *(.irom0.text) /* catch stray ICACHE_RODATA_ATTR */
     /**
+<<<<<<< HEAD
      * CPU will try to prefetch up to 16 bytes of of instructions.
      * This means that any configuration (e.g. MMU, PMS) must allow
      * safe access to up to 16 bytes after the last real instruction,
      * add dummy bytes to ensure this.
+=======
+
+     * CPU will try to prefetch up to 16 bytes of of instructions.
+
+     * This means that any configuration (e.g. MMU, PMS) must allow
+
+     * safe access to up to 16 bytes after the last real instruction,
+
+     * add dummy bytes to ensure this.
+
+>>>>>>> myorigin/master
      */
     . += 16;
     _text_end = ABSOLUTE(.);
     /**
+<<<<<<< HEAD
      * Mark the flash.text end.
      * This can be used for MMU driver to maintain virtual address.
+=======
+
+     * Mark the flash.text end.
+
+     * This can be used for MMU driver to maintain virtual address.
+
+>>>>>>> myorigin/master
      */
     _instruction_reserved_end = ABSOLUTE(.);
     _etext = .;
     /**
+<<<<<<< HEAD
      * Similar to _iram_start, this symbol goes here so it is
      * resolved by addr2line in preference to the first symbol in
      * the flash.text segment.
+=======
+
+     * Similar to _iram_start, this symbol goes here so it is
+
+     * resolved by addr2line in preference to the first symbol in
+
+     * the flash.text segment.
+
+>>>>>>> myorigin/master
      */
     _flash_cache_start = ABSOLUTE(0);
   } > default_code_seg
@@ -700,6 +965,7 @@ SECTIONS
   .comment 0 : { *(.comment) }
   .note.GNU-stack 0: { *(.note.GNU-stack) }
 /**
+<<<<<<< HEAD
  * .xt.prop and .xt.lit sections will be used by the debugger and disassembler
  * to get more information about raw data present in the code.
  * Indeed, it may be required to add some padding at some points in the code
@@ -708,6 +974,25 @@ SECTIONS
  * interpreted as data, and not code by the debugger or disassembler.
  * This section will only be present in the ELF file, not in the final binary
  * For more details, check GCC-212
+=======
+
+ * .xt.prop and .xt.lit sections will be used by the debugger and disassembler
+
+ * to get more information about raw data present in the code.
+
+ * Indeed, it may be required to add some padding at some points in the code
+
+ * in order to align a branch/jump destination on a particular bound.
+
+ * Padding these instructions will generate null bytes that shall be
+
+ * interpreted as data, and not code by the debugger or disassembler.
+
+ * This section will only be present in the ELF file, not in the final binary
+
+ * For more details, check GCC-212
+
+>>>>>>> myorigin/master
  */
   .xtensa.info 0: { *(.xtensa.info) }
   .xt.prop 0 : { *(.xt.prop .xt.prop.* .gnu.linkonce.prop.*) }

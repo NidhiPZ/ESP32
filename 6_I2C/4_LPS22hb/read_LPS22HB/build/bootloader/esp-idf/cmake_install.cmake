@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/dnk133/esp/v5.3.1/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/usr/local")
+=======
+# Install script for directory: C:/Users/DNK133/ESP/v5.3/esp-idf
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/bootloader")
+>>>>>>> myorigin/master
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,106 +42,190 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "/home/dnk133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump")
+=======
+  set(CMAKE_OBJDUMP "C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump.exe")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/xtensa/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/xtensa/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/newlib/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/newlib/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/soc/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/soc/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/hal/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/hal/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/spi_flash/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/spi_flash/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_bootloader_format/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_bootloader_format/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_app_format/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_app_format/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/efuse/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/efuse/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_system/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_system/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_common/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_common/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_rom/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_rom/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/log/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/log/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esptool_py/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esptool_py/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/partition_table/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/partition_table/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/freertos/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/freertos/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/main/cmake_install.cmake")
+=======
+  include("D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/main/cmake_install.cmake")
+>>>>>>> myorigin/master
 endif()
 

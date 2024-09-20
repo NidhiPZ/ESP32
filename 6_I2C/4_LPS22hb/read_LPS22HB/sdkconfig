@@ -1,6 +1,10 @@
 #
 # Automatically generated file. DO NOT EDIT.
+<<<<<<< HEAD
 # Espressif IoT Development Framework (ESP-IDF) 5.3.1 Project Configuration
+=======
+# Espressif IoT Development Framework (ESP-IDF) 5.3.0 Project Configuration
+>>>>>>> myorigin/master
 #
 CONFIG_SOC_BROWNOUT_RESET_SUPPORTED="Not determined"
 CONFIG_SOC_TWAI_BRP_DIV_SUPPORTED="Not determined"
@@ -174,7 +178,11 @@ CONFIG_SOC_TIMER_GROUP_TOTAL_TIMERS=4
 CONFIG_SOC_TIMER_GROUP_SUPPORT_APB=y
 CONFIG_SOC_TOUCH_SENSOR_VERSION=1
 CONFIG_SOC_TOUCH_SENSOR_NUM=10
+<<<<<<< HEAD
 CONFIG_SOC_TOUCH_SAMPLE_CFG_NUM=1
+=======
+CONFIG_SOC_TOUCH_SAMPLER_NUM=1
+>>>>>>> myorigin/master
 CONFIG_SOC_TWAI_CONTROLLER_NUM=1
 CONFIG_SOC_TWAI_BRP_MIN=2
 CONFIG_SOC_TWAI_CLK_SUPPORT_APB=y
@@ -657,6 +665,7 @@ CONFIG_SPI_SLAVE_ISR_IN_IRAM=y
 # end of ESP-Driver:SPI Configurations
 
 #
+<<<<<<< HEAD
 # ESP-Driver:Touch Sensor Configurations
 #
 # CONFIG_TOUCH_CTRL_FUNC_IN_IRAM is not set
@@ -665,6 +674,8 @@ CONFIG_SPI_SLAVE_ISR_IN_IRAM=y
 # end of ESP-Driver:Touch Sensor Configurations
 
 #
+=======
+>>>>>>> myorigin/master
 # ESP-Driver:UART Configurations
 #
 # CONFIG_UART_ISR_IN_IRAM is not set

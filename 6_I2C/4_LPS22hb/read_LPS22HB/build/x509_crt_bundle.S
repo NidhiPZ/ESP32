@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* * Data converted from /home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/esp-idf/mbedtls/x509_crt_bundle
+=======
+/* * Data converted from D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/esp-idf/mbedtls/x509_crt_bundle
+>>>>>>> myorigin/master
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

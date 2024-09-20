@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "idf.adapterTargetName": "esp32",
     "idf.port": "/dev/ttyUSB0",
     "C_Cpp.errorSquiggles": "disabled"
+=======
+    "idf.adapterTargetName": "esp32"
+>>>>>>> myorigin/master
 }

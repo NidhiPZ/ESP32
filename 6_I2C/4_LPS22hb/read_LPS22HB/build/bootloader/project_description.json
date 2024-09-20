@@ -1,17 +1,29 @@
 {
     "version":            "1.1",
     "project_name":       "bootloader",
+<<<<<<< HEAD
     "project_version":    "v5.3.1-dirty",
     "project_path":       "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject",
     "idf_path":           "/home/dnk133/esp/v5.3.1/esp-idf",
     "build_dir":          "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader",
     "config_file":        "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/sdkconfig",
+=======
+    "project_version":    "v5.3-dirty",
+    "project_path":       "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject",
+    "idf_path":           "C:/Users/DNK133/ESP/v5.3/esp-idf",
+    "build_dir":          "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader",
+    "config_file":        "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/sdkconfig",
+>>>>>>> myorigin/master
     "config_defaults":    "",
     "bootloader_elf":     "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
     "build_type":         "flash_app",
+<<<<<<< HEAD
     "git_revision":       "v5.3.1-dirty",
+=======
+    "git_revision":       "v5.3-dirty",
+>>>>>>> myorigin/master
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",
@@ -19,6 +31,7 @@
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
     "monitor_toolprefix": "xtensa-esp32-elf-",
+<<<<<<< HEAD
     "c_compiler":         "/home/dnk133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
     "config_environment" : {
         "COMPONENT_KCONFIGS" : "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/esp_common/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/esp_system/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/freertos/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/hal/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/log/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/newlib/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/soc/Kconfig;/home/dnk133/esp/v5.3.1/esp-idf/components/spi_flash/Kconfig",
@@ -27,12 +40,26 @@
     "common_component_reqs": [ "log", "esp_rom", "esp_common", "esp_hw_support", "newlib", "xtensa" ],
     "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_bootloader_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
     "build_component_paths" : [ "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_app_format", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_bootloader_format", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_common", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_system", "/home/dnk133/esp/v5.3.1/esp-idf/components/esptool_py", "/home/dnk133/esp/v5.3.1/esp-idf/components/freertos", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal", "/home/dnk133/esp/v5.3.1/esp-idf/components/log", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/main", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/dnk133/esp/v5.3.1/esp-idf/components/newlib", "/home/dnk133/esp/v5.3.1/esp-idf/components/partition_table", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc", "/home/dnk133/esp/v5.3.1/esp-idf/components/spi_flash", "/home/dnk133/esp/v5.3.1/esp-idf/components/xtensa", "" ],
+=======
+    "c_compiler":         "C:/Users/DNK133/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/log/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/Kconfig;C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "common_component_reqs": [ "log", "esp_rom", "esp_common", "esp_hw_support", "newlib", "xtensa" ],
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_bootloader_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/main", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/components/micro-ecc", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa", "" ],
+>>>>>>> myorigin/master
     "build_component_info" : {
         "bootloader": {
             "alias": "idf::bootloader",
             "target": "___idf_bootloader",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_bootloader",
             "reqs": [],
@@ -47,37 +74,59 @@
             "alias": "idf::bootloader_support",
             "target": "___idf_bootloader_support",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_bootloader_support",
             "reqs": [ "soc" ],
             "priv_reqs": [ "micro-ecc", "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_common.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_random.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/secure_boot.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/flash_partitions.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/esp_image_format.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_init.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_clock_loader.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_console.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_console_loader.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/esp32/bootloader_sha.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/esp32/bootloader_soc.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/esp32/bootloader_esp32.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support/src/bootloader_panic.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/bootloader_support/libbootloader_support.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_common.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_mem.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_random.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/flash_encrypt.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/secure_boot.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_utility.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/flash_partitions.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/esp_image_format.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_init.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_clock_loader.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_console.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_console_loader.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/esp32/bootloader_sha.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/esp32/bootloader_soc.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/esp32/bootloader_esp32.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support/src/bootloader_panic.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include", "bootloader_flash/include", "private_include" ]
         },
         "efuse": {
             "alias": "idf::efuse",
             "target": "___idf_efuse",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_efuse",
             "reqs": [],
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/efuse/libefuse.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/src/esp_efuse_api.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/src/esp_efuse_fields.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/src/esp_efuse_utility.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/efuse/libefuse.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/esp32/esp_efuse_table.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/src/esp_efuse_api.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/src/esp_efuse_fields.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/src/esp_efuse_utility.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include", "esp32/include" ]
         },
         "esp_app_format": {
             "alias": "idf::esp_app_format",
             "target": "___idf_esp_app_format",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_app_format",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_esp_app_format",
             "reqs": [],
@@ -92,82 +141,131 @@
             "alias": "idf::esp_bootloader_format",
             "target": "___idf_esp_bootloader_format",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_bootloader_format",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_esp_bootloader_format",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include" ]
         },
         "esp_common": {
             "alias": "idf::esp_common",
             "target": "___idf_esp_common",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_common",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_esp_common",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_common/libesp_common.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include" ]
         },
         "esp_hw_support": {
             "alias": "idf::esp_hw_support",
             "target": "___idf_esp_hw_support",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "soc" ],
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/cpu.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support/port/esp32/chip_info.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/cpu.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/esp_memory_utils.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support/port/esp32/chip_info.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include", "include/soc", "include/soc/esp32", "dma/include", "ldo/include" ]
         },
         "esp_rom": {
             "alias": "idf::esp_rom",
             "target": "___idf_esp_rom",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_esp_rom",
             "reqs": [],
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_rom/libesp_rom.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include", "include/esp32", "esp32" ]
         },
         "esp_system": {
             "alias": "idf::esp_system",
             "target": "___idf_esp_system",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_system",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_esp_system",
             "reqs": [ "spi_flash" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_system/esp_err.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/esp_system/libesp_system.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/esp_err.c" ],
+>>>>>>> myorigin/master
             "include_dirs": []
         },
         "esptool_py": {
             "alias": "idf::esptool_py",
             "target": "___idf_esptool_py",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esptool_py",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_esptool_py",
             "reqs": [ "bootloader" ],
@@ -182,7 +280,11 @@
             "alias": "idf::freertos",
             "target": "___idf_freertos",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/freertos",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_freertos",
             "reqs": [],
@@ -197,67 +299,107 @@
             "alias": "idf::hal",
             "target": "___idf_hal",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/hal",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_hal",
             "reqs": [ "soc", "esp_rom" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/hal/libhal.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/hal_utils.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/mpu_hal.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/efuse_hal.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/esp32/efuse_hal.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/wdt_hal_iram.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/mmu_hal.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/hal/esp32/cache_hal_esp32.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/hal/libhal.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/hal_utils.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/mpu_hal.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/efuse_hal.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/esp32/efuse_hal.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/wdt_hal_iram.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/mmu_hal.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal/esp32/cache_hal_esp32.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
         "log": {
             "alias": "idf::log",
             "target": "___idf_log",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/log",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_log",
             "reqs": [],
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/log/liblog.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/log/log.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/log/log_buffers.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/log/log_noos.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/log/liblog.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log/log.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log/log_buffers.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log/log_noos.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include" ]
         },
         "main": {
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/main",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/main",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [ "bootloader", "bootloader_support" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/main/libmain.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/main/libmain.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/main/bootloader_start.c" ],
+>>>>>>> myorigin/master
             "include_dirs": []
         },
         "micro-ecc": {
             "alias": "idf::micro-ecc",
             "target": "___idf_micro-ecc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/components/micro-ecc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/components/micro-ecc",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_micro-ecc",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/micro-ecc/libmicro-ecc.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/micro-ecc/libmicro-ecc.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ ".", "micro-ecc" ]
         },
         "newlib": {
             "alias": "idf::newlib",
             "target": "___idf_newlib",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/newlib",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_newlib",
             "reqs": [],
@@ -272,7 +414,11 @@
             "alias": "idf::partition_table",
             "target": "___idf_partition_table",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/partition_table",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table",
+>>>>>>> myorigin/master
             "type": "CONFIG_ONLY",
             "lib": "__idf_partition_table",
             "reqs": [],
@@ -287,45 +433,72 @@
             "alias": "idf::soc",
             "target": "___idf_soc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/soc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_soc",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/soc/libsoc.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/lldesc.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/dport_access_common.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/interrupts.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/gpio_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/uart_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/dport_access.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/adc_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/emac_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/spi_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/ledc_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/pcnt_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/rmt_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/sdm_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/i2s_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/i2c_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/timer_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/lcd_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/mcpwm_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/mpi_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/sdmmc_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/touch_sensor_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/twai_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/dac_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/rtc_io_periph.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/soc/esp32/sdio_slave_periph.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/soc/libsoc.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/lldesc.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/dport_access_common.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/interrupts.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/gpio_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/uart_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/dport_access.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/adc_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/emac_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/spi_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/ledc_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/pcnt_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/rmt_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/sdm_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/i2s_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/i2c_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/timer_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/lcd_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/mcpwm_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/mpi_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/sdmmc_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/touch_sensor_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/twai_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/dac_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/rtc_io_periph.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc/esp32/sdio_slave_periph.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include", "esp32", "esp32/include" ]
         },
         "spi_flash": {
             "alias": "idf::spi_flash",
             "target": "___idf_spi_flash",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/spi_flash",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_spi_flash",
             "reqs": [ "hal" ],
             "priv_reqs": [ "bootloader_support", "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/spi_flash/spi_flash_wrap.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/spi_flash/libspi_flash.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash/spi_flash_wrap.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "include" ]
         },
         "xtensa": {
             "alias": "idf::xtensa",
             "target": "___idf_xtensa",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/xtensa",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa",
+>>>>>>> myorigin/master
             "type": "LIBRARY",
             "lib": "__idf_xtensa",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "file": "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/xtensa/eri.c", "/home/dnk133/esp/v5.3.1/esp-idf/components/xtensa/xt_trax.c" ],
+=======
+            "file": "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader/esp-idf/xtensa/libxtensa.a",
+            "sources": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/eri.c", "C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa/xt_trax.c" ],
+>>>>>>> myorigin/master
             "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         }
     },
@@ -334,7 +507,11 @@
             "alias": "idf::app_trace",
             "target": "___idf_app_trace",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/app_trace",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/app_trace",
+>>>>>>> myorigin/master
             "lib": "__idf_app_trace",
             "reqs": [ "esp_timer" ],
             "priv_reqs": [ "esp_driver_gptimer", "esp_driver_gpio", "esp_driver_uart" ],
@@ -346,7 +523,11 @@
             "alias": "idf::app_update",
             "target": "___idf_app_update",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/app_update",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/app_update",
+>>>>>>> myorigin/master
             "lib": "__idf_app_update",
             "reqs": [ "partition_table", "bootloader_support", "esp_app_format", "esp_bootloader_format", "esp_partition" ],
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
@@ -358,7 +539,11 @@
             "alias": "idf::bootloader",
             "target": "___idf_bootloader",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader",
+>>>>>>> myorigin/master
             "lib": "__idf_bootloader",
             "reqs": [],
             "priv_reqs": [ "partition_table", "esptool_py" ],
@@ -370,7 +555,11 @@
             "alias": "idf::bootloader_support",
             "target": "___idf_bootloader_support",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader_support",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader_support",
+>>>>>>> myorigin/master
             "lib": "__idf_bootloader_support",
             "reqs": [ "soc" ],
             "priv_reqs": [ "micro-ecc", "spi_flash", "efuse", "esp_bootloader_format", "esp_app_format", "hal" ],
@@ -382,7 +571,11 @@
             "alias": "idf::bt",
             "target": "___idf_bt",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bt",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bt",
+>>>>>>> myorigin/master
             "lib": "__idf_bt",
             "reqs": [ "esp_timer", "esp_wifi" ],
             "priv_reqs": [ "nvs_flash", "soc", "esp_pm", "esp_phy", "esp_coex", "mbedtls", "esp_driver_uart", "vfs", "esp_ringbuf" ],
@@ -394,7 +587,11 @@
             "alias": "idf::cmock",
             "target": "___idf_cmock",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/cmock",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/cmock",
+>>>>>>> myorigin/master
             "lib": "__idf_cmock",
             "reqs": [ "unity" ],
             "priv_reqs": [],
@@ -406,19 +603,31 @@
             "alias": "idf::console",
             "target": "___idf_console",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/console",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/console",
+>>>>>>> myorigin/master
             "lib": "__idf_console",
             "reqs": [ "vfs", "esp_vfs_console" ],
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "include_dirs": [ "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader" ]
+=======
+            "include_dirs": [ "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader" ]
+>>>>>>> myorigin/master
         },
         "cxx": {
             "alias": "idf::cxx",
             "target": "___idf_cxx",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/cxx",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/cxx",
+>>>>>>> myorigin/master
             "lib": "__idf_cxx",
             "reqs": [],
             "priv_reqs": [ "pthread", "esp_system" ],
@@ -430,7 +639,11 @@
             "alias": "idf::driver",
             "target": "___idf_driver",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/driver",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/driver",
+>>>>>>> myorigin/master
             "lib": "__idf_driver",
             "reqs": [],
             "priv_reqs": [],
@@ -442,7 +655,11 @@
             "alias": "idf::efuse",
             "target": "___idf_efuse",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/efuse",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/efuse",
+>>>>>>> myorigin/master
             "lib": "__idf_efuse",
             "reqs": [],
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash" ],
@@ -454,19 +671,31 @@
             "alias": "idf::esp-tls",
             "target": "___idf_esp-tls",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp-tls",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp-tls",
+>>>>>>> myorigin/master
             "lib": "__idf_esp-tls",
             "reqs": [ "mbedtls" ],
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "include_dirs": [ "/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader", "esp-tls-crypto" ]
+=======
+            "include_dirs": [ "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/build/bootloader", "esp-tls-crypto" ]
+>>>>>>> myorigin/master
         },
         "esp_adc": {
             "alias": "idf::esp_adc",
             "target": "___idf_esp_adc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_adc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_adc",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_adc",
             "reqs": [],
             "priv_reqs": [ "driver", "esp_driver_gpio", "efuse", "esp_pm", "esp_ringbuf", "esp_mm" ],
@@ -478,7 +707,11 @@
             "alias": "idf::esp_app_format",
             "target": "___idf_esp_app_format",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_app_format",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_app_format",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_app_format",
             "reqs": [],
             "priv_reqs": [],
@@ -490,7 +723,11 @@
             "alias": "idf::esp_bootloader_format",
             "target": "___idf_esp_bootloader_format",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_bootloader_format",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_bootloader_format",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_bootloader_format",
             "reqs": [],
             "priv_reqs": [],
@@ -502,7 +739,11 @@
             "alias": "idf::esp_coex",
             "target": "___idf_esp_coex",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_coex",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_coex",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_coex",
             "reqs": [],
             "priv_reqs": [ "esp_timer", "driver", "esp_event" ],
@@ -514,7 +755,11 @@
             "alias": "idf::esp_common",
             "target": "___idf_esp_common",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_common",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_common",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_common",
             "reqs": [],
             "priv_reqs": [],
@@ -526,7 +771,11 @@
             "alias": "idf::esp_driver_ana_cmpr",
             "target": "___idf_esp_driver_ana_cmpr",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_ana_cmpr",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ana_cmpr",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_ana_cmpr",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
@@ -538,7 +787,11 @@
             "alias": "idf::esp_driver_cam",
             "target": "___idf_esp_driver_cam",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_cam",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_cam",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_cam",
             "reqs": [ "esp_driver_isp", "esp_mm" ],
             "priv_reqs": [ "esp_driver_gpio" ],
@@ -550,7 +803,11 @@
             "alias": "idf::esp_driver_dac",
             "target": "___idf_esp_driver_dac",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_dac",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_dac",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_dac",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_i2s" ],
@@ -562,7 +819,11 @@
             "alias": "idf::esp_driver_gpio",
             "target": "___idf_esp_driver_gpio",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_gpio",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gpio",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_gpio",
             "reqs": [],
             "priv_reqs": [ "esp_pm" ],
@@ -574,7 +835,11 @@
             "alias": "idf::esp_driver_gptimer",
             "target": "___idf_esp_driver_gptimer",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_gptimer",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_gptimer",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_gptimer",
             "reqs": [ "esp_pm" ],
             "priv_reqs": [],
@@ -586,7 +851,11 @@
             "alias": "idf::esp_driver_i2c",
             "target": "___idf_esp_driver_i2c",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_i2c",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2c",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_i2c",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
@@ -598,7 +867,11 @@
             "alias": "idf::esp_driver_i2s",
             "target": "___idf_esp_driver_i2s",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_i2s",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_i2s",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_i2s",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_mm" ],
@@ -610,7 +883,11 @@
             "alias": "idf::esp_driver_isp",
             "target": "___idf_esp_driver_isp",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_isp",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_isp",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_isp",
             "reqs": [ "esp_mm" ],
             "priv_reqs": [ "esp_driver_gpio" ],
@@ -622,7 +899,11 @@
             "alias": "idf::esp_driver_jpeg",
             "target": "___idf_esp_driver_jpeg",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_jpeg",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_jpeg",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_jpeg",
             "reqs": [],
             "priv_reqs": [ "esp_mm", "esp_pm" ],
@@ -634,7 +915,11 @@
             "alias": "idf::esp_driver_ledc",
             "target": "___idf_esp_driver_ledc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_ledc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ledc",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_ledc",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
@@ -646,7 +931,11 @@
             "alias": "idf::esp_driver_mcpwm",
             "target": "___idf_esp_driver_mcpwm",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_mcpwm",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_mcpwm",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_mcpwm",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
@@ -658,7 +947,11 @@
             "alias": "idf::esp_driver_parlio",
             "target": "___idf_esp_driver_parlio",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_parlio",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_parlio",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_parlio",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_mm" ],
@@ -670,7 +963,11 @@
             "alias": "idf::esp_driver_pcnt",
             "target": "___idf_esp_driver_pcnt",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_pcnt",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_pcnt",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_pcnt",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
@@ -682,7 +979,11 @@
             "alias": "idf::esp_driver_ppa",
             "target": "___idf_esp_driver_ppa",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_ppa",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_ppa",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_ppa",
             "reqs": [],
             "priv_reqs": [ "esp_mm", "esp_pm" ],
@@ -694,7 +995,11 @@
             "alias": "idf::esp_driver_rmt",
             "target": "___idf_esp_driver_rmt",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_rmt",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_rmt",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_rmt",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_mm" ],
@@ -706,7 +1011,11 @@
             "alias": "idf::esp_driver_sdio",
             "target": "___idf_esp_driver_sdio",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_sdio",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdio",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_sdio",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf" ],
@@ -718,7 +1027,11 @@
             "alias": "idf::esp_driver_sdm",
             "target": "___idf_esp_driver_sdm",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_sdm",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdm",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_sdm",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
@@ -730,7 +1043,11 @@
             "alias": "idf::esp_driver_sdmmc",
             "target": "___idf_esp_driver_sdmmc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_sdmmc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdmmc",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_sdmmc",
             "reqs": [ "sdmmc", "esp_driver_gpio" ],
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm" ],
@@ -742,7 +1059,11 @@
             "alias": "idf::esp_driver_sdspi",
             "target": "___idf_esp_driver_sdspi",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_sdspi",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_sdspi",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_sdspi",
             "reqs": [ "sdmmc", "esp_driver_spi", "esp_driver_gpio" ],
             "priv_reqs": [ "esp_timer" ],
@@ -754,7 +1075,11 @@
             "alias": "idf::esp_driver_spi",
             "target": "___idf_esp_driver_spi",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_spi",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_spi",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_spi",
             "reqs": [ "esp_pm" ],
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf" ],
@@ -762,6 +1087,7 @@
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
         },
+<<<<<<< HEAD
         "esp_driver_touch_sens": {
             "alias": "idf::esp_driver_touch_sens",
             "target": "___idf_esp_driver_touch_sens",
@@ -774,11 +1100,17 @@
             "managed_priv_reqs": [],
             "include_dirs": []
         },
+=======
+>>>>>>> myorigin/master
         "esp_driver_tsens": {
             "alias": "idf::esp_driver_tsens",
             "target": "___idf_esp_driver_tsens",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_tsens",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_tsens",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_tsens",
             "reqs": [],
             "priv_reqs": [ "efuse" ],
@@ -790,7 +1122,11 @@
             "alias": "idf::esp_driver_uart",
             "target": "___idf_esp_driver_uart",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_uart",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_uart",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_uart",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf" ],
@@ -802,7 +1138,11 @@
             "alias": "idf::esp_driver_usb_serial_jtag",
             "target": "___idf_esp_driver_usb_serial_jtag",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_driver_usb_serial_jtag",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_driver_usb_serial_jtag",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_driver_usb_serial_jtag",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer" ],
@@ -814,7 +1154,11 @@
             "alias": "idf::esp_eth",
             "target": "___idf_esp_eth",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_eth",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_eth",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_eth",
             "reqs": [ "esp_event" ],
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio" ],
@@ -826,7 +1170,11 @@
             "alias": "idf::esp_event",
             "target": "___idf_esp_event",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_event",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_event",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_event",
             "reqs": [ "log", "esp_common", "freertos" ],
             "priv_reqs": [ "esp_timer" ],
@@ -838,7 +1186,11 @@
             "alias": "idf::esp_gdbstub",
             "target": "___idf_esp_gdbstub",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_gdbstub",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_gdbstub",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_gdbstub",
             "reqs": [ "freertos" ],
             "priv_reqs": [ "soc", "esp_rom", "esp_system" ],
@@ -850,7 +1202,11 @@
             "alias": "idf::esp_hid",
             "target": "___idf_esp_hid",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hid",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hid",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_hid",
             "reqs": [ "esp_event", "bt" ],
             "priv_reqs": [],
@@ -862,7 +1218,11 @@
             "alias": "idf::esp_http_client",
             "target": "___idf_esp_http_client",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_http_client",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_client",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_http_client",
             "reqs": [ "lwip", "esp_event" ],
             "priv_reqs": [ "tcp_transport", "http_parser" ],
@@ -874,7 +1234,11 @@
             "alias": "idf::esp_http_server",
             "target": "___idf_esp_http_server",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_http_server",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_http_server",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_http_server",
             "reqs": [ "http_parser", "esp_event" ],
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
@@ -886,7 +1250,11 @@
             "alias": "idf::esp_https_ota",
             "target": "___idf_esp_https_ota",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_https_ota",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_ota",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_https_ota",
             "reqs": [ "esp_http_client", "bootloader_support", "esp_app_format", "esp_event" ],
             "priv_reqs": [ "log", "app_update" ],
@@ -898,7 +1266,11 @@
             "alias": "idf::esp_https_server",
             "target": "___idf_esp_https_server",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_https_server",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_https_server",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_https_server",
             "reqs": [ "esp_http_server", "esp-tls", "esp_event" ],
             "priv_reqs": [ "lwip" ],
@@ -910,7 +1282,11 @@
             "alias": "idf::esp_hw_support",
             "target": "___idf_esp_hw_support",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_hw_support",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_hw_support",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_hw_support",
             "reqs": [ "soc" ],
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_system" ],
@@ -922,7 +1298,11 @@
             "alias": "idf::esp_lcd",
             "target": "___idf_esp_lcd",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_lcd",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_lcd",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_lcd",
             "reqs": [ "driver", "esp_driver_gpio", "esp_driver_i2c", "esp_driver_spi" ],
             "priv_reqs": [ "esp_mm", "esp_psram", "esp_pm", "esp_driver_i2s" ],
@@ -934,7 +1314,11 @@
             "alias": "idf::esp_local_ctrl",
             "target": "___idf_esp_local_ctrl",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_local_ctrl",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_local_ctrl",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_local_ctrl",
             "reqs": [ "protocomm", "esp_https_server" ],
             "priv_reqs": [ "protobuf-c" ],
@@ -946,7 +1330,11 @@
             "alias": "idf::esp_mm",
             "target": "___idf_esp_mm",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_mm",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_mm",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_mm",
             "reqs": [],
             "priv_reqs": [ "heap", "spi_flash" ],
@@ -958,7 +1346,11 @@
             "alias": "idf::esp_netif",
             "target": "___idf_esp_netif",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_netif",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_netif",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_netif",
             "reqs": [ "esp_event" ],
             "priv_reqs": [ "esp_netif_stack" ],
@@ -970,7 +1362,11 @@
             "alias": "idf::esp_netif_stack",
             "target": "___idf_esp_netif_stack",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_netif_stack",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_netif_stack",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_netif_stack",
             "reqs": [ "lwip" ],
             "priv_reqs": [],
@@ -982,7 +1378,11 @@
             "alias": "idf::esp_partition",
             "target": "___idf_esp_partition",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_partition",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_partition",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_partition",
             "reqs": [],
             "priv_reqs": [ "esp_system", "bootloader_support", "spi_flash", "app_update", "partition_table" ],
@@ -994,7 +1394,11 @@
             "alias": "idf::esp_phy",
             "target": "___idf_esp_phy",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_phy",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_phy",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_phy",
             "reqs": [],
             "priv_reqs": [ "nvs_flash", "driver", "efuse", "esp_timer", "esp_wifi" ],
@@ -1006,7 +1410,11 @@
             "alias": "idf::esp_pm",
             "target": "___idf_esp_pm",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_pm",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_pm",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_pm",
             "reqs": [],
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
@@ -1018,7 +1426,11 @@
             "alias": "idf::esp_psram",
             "target": "___idf_esp_psram",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_psram",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_psram",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_psram",
             "reqs": [],
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "bootloader_support", "driver" ],
@@ -1030,7 +1442,11 @@
             "alias": "idf::esp_ringbuf",
             "target": "___idf_esp_ringbuf",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_ringbuf",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_ringbuf",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_ringbuf",
             "reqs": [],
             "priv_reqs": [],
@@ -1042,7 +1458,11 @@
             "alias": "idf::esp_rom",
             "target": "___idf_esp_rom",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_rom",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_rom",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_rom",
             "reqs": [],
             "priv_reqs": [ "soc", "hal" ],
@@ -1054,7 +1474,11 @@
             "alias": "idf::esp_system",
             "target": "___idf_esp_system",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_system",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_system",
             "reqs": [ "spi_flash" ],
             "priv_reqs": [],
@@ -1066,7 +1490,11 @@
             "alias": "idf::esp_timer",
             "target": "___idf_esp_timer",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_timer",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_timer",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_timer",
             "reqs": [],
             "priv_reqs": [],
@@ -1078,7 +1506,11 @@
             "alias": "idf::esp_vfs_console",
             "target": "___idf_esp_vfs_console",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_vfs_console",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_vfs_console",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_vfs_console",
             "reqs": [],
             "priv_reqs": [ "vfs", "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
@@ -1090,7 +1522,11 @@
             "alias": "idf::esp_wifi",
             "target": "___idf_esp_wifi",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esp_wifi",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_wifi",
+>>>>>>> myorigin/master
             "lib": "__idf_esp_wifi",
             "reqs": [ "esp_event", "esp_phy", "esp_netif" ],
             "priv_reqs": [ "driver", "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
@@ -1102,7 +1538,11 @@
             "alias": "idf::espcoredump",
             "target": "___idf_espcoredump",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/espcoredump",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/espcoredump",
+>>>>>>> myorigin/master
             "lib": "__idf_espcoredump",
             "reqs": [],
             "priv_reqs": [ "esp_partition", "spi_flash", "bootloader_support", "mbedtls", "esp_rom", "soc", "esp_system", "esp_driver_gpio", "driver" ],
@@ -1114,7 +1554,11 @@
             "alias": "idf::esptool_py",
             "target": "___idf_esptool_py",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/esptool_py",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py",
+>>>>>>> myorigin/master
             "lib": "__idf_esptool_py",
             "reqs": [ "bootloader" ],
             "priv_reqs": [ "partition_table" ],
@@ -1126,7 +1570,11 @@
             "alias": "idf::fatfs",
             "target": "___idf_fatfs",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/fatfs",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/fatfs",
+>>>>>>> myorigin/master
             "lib": "__idf_fatfs",
             "reqs": [ "wear_levelling", "sdmmc", "esp_driver_sdmmc", "esp_driver_sdspi" ],
             "priv_reqs": [ "vfs", "esp_driver_gpio" ],
@@ -1138,7 +1586,11 @@
             "alias": "idf::freertos",
             "target": "___idf_freertos",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/freertos",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos",
+>>>>>>> myorigin/master
             "lib": "__idf_freertos",
             "reqs": [],
             "priv_reqs": [],
@@ -1150,7 +1602,11 @@
             "alias": "idf::hal",
             "target": "___idf_hal",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/hal",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/hal",
+>>>>>>> myorigin/master
             "lib": "__idf_hal",
             "reqs": [ "soc", "esp_rom" ],
             "priv_reqs": [],
@@ -1162,7 +1618,11 @@
             "alias": "idf::heap",
             "target": "___idf_heap",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/heap",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/heap",
+>>>>>>> myorigin/master
             "lib": "__idf_heap",
             "reqs": [],
             "priv_reqs": [ "soc" ],
@@ -1174,7 +1634,11 @@
             "alias": "idf::http_parser",
             "target": "___idf_http_parser",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/http_parser",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/http_parser",
+>>>>>>> myorigin/master
             "lib": "__idf_http_parser",
             "reqs": [],
             "priv_reqs": [],
@@ -1186,7 +1650,11 @@
             "alias": "idf::idf_test",
             "target": "___idf_idf_test",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/idf_test",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/idf_test",
+>>>>>>> myorigin/master
             "lib": "__idf_idf_test",
             "reqs": [],
             "priv_reqs": [],
@@ -1198,7 +1666,11 @@
             "alias": "idf::ieee802154",
             "target": "___idf_ieee802154",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/ieee802154",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/ieee802154",
+>>>>>>> myorigin/master
             "lib": "__idf_ieee802154",
             "reqs": [],
             "priv_reqs": [ "esp_phy", "driver", "esp_timer", "esp_coex", "soc", "hal" ],
@@ -1210,7 +1682,11 @@
             "alias": "idf::json",
             "target": "___idf_json",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/json",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/json",
+>>>>>>> myorigin/master
             "lib": "__idf_json",
             "reqs": [],
             "priv_reqs": [],
@@ -1222,7 +1698,11 @@
             "alias": "idf::linux",
             "target": "___idf_linux",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/linux",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/linux",
+>>>>>>> myorigin/master
             "lib": "__idf_linux",
             "reqs": [],
             "priv_reqs": [],
@@ -1234,7 +1714,11 @@
             "alias": "idf::log",
             "target": "___idf_log",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/log",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/log",
+>>>>>>> myorigin/master
             "lib": "__idf_log",
             "reqs": [],
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
@@ -1246,7 +1730,11 @@
             "alias": "idf::lwip",
             "target": "___idf_lwip",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/lwip",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/lwip",
+>>>>>>> myorigin/master
             "lib": "__idf_lwip",
             "reqs": [],
             "priv_reqs": [ "vfs" ],
@@ -1258,7 +1746,11 @@
             "alias": "idf::mbedtls",
             "target": "___idf_mbedtls",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/mbedtls",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/mbedtls",
+>>>>>>> myorigin/master
             "lib": "__idf_mbedtls",
             "reqs": [],
             "priv_reqs": [ "soc", "esp_hw_support" ],
@@ -1270,19 +1762,31 @@
             "alias": "idf::mqtt",
             "target": "___idf_mqtt",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/mqtt",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/mqtt",
+>>>>>>> myorigin/master
             "lib": "__idf_mqtt",
             "reqs": [ "esp_event", "tcp_transport" ],
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
+<<<<<<< HEAD
             "include_dirs": [ "/home/dnk133/esp/v5.3.1/esp-idf/components/mqtt/esp-mqtt/include" ]
+=======
+            "include_dirs": [ "C:/Users/DNK133/ESP/v5.3/esp-idf/components/mqtt/esp-mqtt/include" ]
+>>>>>>> myorigin/master
         },
         "newlib": {
             "alias": "idf::newlib",
             "target": "___idf_newlib",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/newlib",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib",
+>>>>>>> myorigin/master
             "lib": "__idf_newlib",
             "reqs": [],
             "priv_reqs": [],
@@ -1294,7 +1798,11 @@
             "alias": "idf::nvs_flash",
             "target": "___idf_nvs_flash",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/nvs_flash",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_flash",
+>>>>>>> myorigin/master
             "lib": "__idf_nvs_flash",
             "reqs": [ "esp_partition" ],
             "priv_reqs": [ "spi_flash", "newlib" ],
@@ -1306,7 +1814,11 @@
             "alias": "idf::nvs_sec_provider",
             "target": "___idf_nvs_sec_provider",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/nvs_sec_provider",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/nvs_sec_provider",
+>>>>>>> myorigin/master
             "lib": "__idf_nvs_sec_provider",
             "reqs": [],
             "priv_reqs": [ "bootloader_support", "efuse", "esp_partition", "nvs_flash" ],
@@ -1318,7 +1830,11 @@
             "alias": "idf::openthread",
             "target": "___idf_openthread",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/openthread",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/openthread",
+>>>>>>> myorigin/master
             "lib": "__idf_openthread",
             "reqs": [ "esp_netif", "lwip", "esp_driver_uart", "driver" ],
             "priv_reqs": [ "console", "esp_event", "esp_partition", "esp_timer", "ieee802154", "mbedtls", "nvs_flash" ],
@@ -1330,7 +1846,11 @@
             "alias": "idf::partition_table",
             "target": "___idf_partition_table",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/partition_table",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table",
+>>>>>>> myorigin/master
             "lib": "__idf_partition_table",
             "reqs": [],
             "priv_reqs": [ "esptool_py" ],
@@ -1342,7 +1862,11 @@
             "alias": "idf::perfmon",
             "target": "___idf_perfmon",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/perfmon",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/perfmon",
+>>>>>>> myorigin/master
             "lib": "__idf_perfmon",
             "reqs": [ "xtensa" ],
             "priv_reqs": [],
@@ -1354,7 +1878,11 @@
             "alias": "idf::protobuf-c",
             "target": "___idf_protobuf-c",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/protobuf-c",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/protobuf-c",
+>>>>>>> myorigin/master
             "lib": "__idf_protobuf-c",
             "reqs": [],
             "priv_reqs": [],
@@ -1366,7 +1894,11 @@
             "alias": "idf::protocomm",
             "target": "___idf_protocomm",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/protocomm",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/protocomm",
+>>>>>>> myorigin/master
             "lib": "__idf_protocomm",
             "reqs": [ "bt" ],
             "priv_reqs": [ "protobuf-c", "mbedtls", "console", "esp_http_server", "driver" ],
@@ -1378,7 +1910,11 @@
             "alias": "idf::pthread",
             "target": "___idf_pthread",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/pthread",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/pthread",
+>>>>>>> myorigin/master
             "lib": "__idf_pthread",
             "reqs": [],
             "priv_reqs": [],
@@ -1390,7 +1926,11 @@
             "alias": "idf::riscv",
             "target": "___idf_riscv",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/riscv",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/riscv",
+>>>>>>> myorigin/master
             "lib": "__idf_riscv",
             "reqs": [],
             "priv_reqs": [],
@@ -1402,7 +1942,11 @@
             "alias": "idf::sdmmc",
             "target": "___idf_sdmmc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/sdmmc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/sdmmc",
+>>>>>>> myorigin/master
             "lib": "__idf_sdmmc",
             "reqs": [],
             "priv_reqs": [ "soc", "esp_timer", "esp_mm" ],
@@ -1414,7 +1958,11 @@
             "alias": "idf::soc",
             "target": "___idf_soc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/soc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/soc",
+>>>>>>> myorigin/master
             "lib": "__idf_soc",
             "reqs": [],
             "priv_reqs": [],
@@ -1426,7 +1974,11 @@
             "alias": "idf::spi_flash",
             "target": "___idf_spi_flash",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/spi_flash",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/spi_flash",
+>>>>>>> myorigin/master
             "lib": "__idf_spi_flash",
             "reqs": [ "hal" ],
             "priv_reqs": [ "bootloader_support", "soc" ],
@@ -1438,7 +1990,11 @@
             "alias": "idf::spiffs",
             "target": "___idf_spiffs",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/spiffs",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/spiffs",
+>>>>>>> myorigin/master
             "lib": "__idf_spiffs",
             "reqs": [ "esp_partition" ],
             "priv_reqs": [ "bootloader_support", "esptool_py", "vfs", "spi_flash" ],
@@ -1450,7 +2006,11 @@
             "alias": "idf::tcp_transport",
             "target": "___idf_tcp_transport",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/tcp_transport",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/tcp_transport",
+>>>>>>> myorigin/master
             "lib": "__idf_tcp_transport",
             "reqs": [ "esp-tls", "lwip", "esp_timer" ],
             "priv_reqs": [],
@@ -1462,7 +2022,11 @@
             "alias": "idf::touch_element",
             "target": "___idf_touch_element",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/touch_element",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/touch_element",
+>>>>>>> myorigin/master
             "lib": "__idf_touch_element",
             "reqs": [],
             "priv_reqs": [],
@@ -1474,7 +2038,11 @@
             "alias": "idf::ulp",
             "target": "___idf_ulp",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/ulp",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/ulp",
+>>>>>>> myorigin/master
             "lib": "__idf_ulp",
             "reqs": [ "driver", "esp_adc" ],
             "priv_reqs": [],
@@ -1486,7 +2054,11 @@
             "alias": "idf::unity",
             "target": "___idf_unity",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/unity",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/unity",
+>>>>>>> myorigin/master
             "lib": "__idf_unity",
             "reqs": [],
             "priv_reqs": [],
@@ -1498,7 +2070,11 @@
             "alias": "idf::usb",
             "target": "___idf_usb",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/usb",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/usb",
+>>>>>>> myorigin/master
             "lib": "__idf_usb",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_mm" ],
@@ -1510,7 +2086,11 @@
             "alias": "idf::vfs",
             "target": "___idf_vfs",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/vfs",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/vfs",
+>>>>>>> myorigin/master
             "lib": "__idf_vfs",
             "reqs": [],
             "priv_reqs": [ "esp_timer", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_vfs_console" ],
@@ -1522,7 +2102,11 @@
             "alias": "idf::wear_levelling",
             "target": "___idf_wear_levelling",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/wear_levelling",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/wear_levelling",
+>>>>>>> myorigin/master
             "lib": "__idf_wear_levelling",
             "reqs": [ "esp_partition" ],
             "priv_reqs": [ "spi_flash" ],
@@ -1534,7 +2118,11 @@
             "alias": "idf::wifi_provisioning",
             "target": "___idf_wifi_provisioning",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/wifi_provisioning",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/wifi_provisioning",
+>>>>>>> myorigin/master
             "lib": "__idf_wifi_provisioning",
             "reqs": [ "lwip", "protocomm" ],
             "priv_reqs": [ "protobuf-c", "bt", "json", "esp_timer", "esp_wifi" ],
@@ -1546,7 +2134,11 @@
             "alias": "idf::wpa_supplicant",
             "target": "___idf_wpa_supplicant",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/wpa_supplicant",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/wpa_supplicant",
+>>>>>>> myorigin/master
             "lib": "__idf_wpa_supplicant",
             "reqs": [],
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
@@ -1558,7 +2150,11 @@
             "alias": "idf::xtensa",
             "target": "___idf_xtensa",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/xtensa",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/xtensa",
+>>>>>>> myorigin/master
             "lib": "__idf_xtensa",
             "reqs": [],
             "priv_reqs": [],
@@ -1570,7 +2166,11 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/main",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/main",
+>>>>>>> myorigin/master
             "lib": "__idf_main",
             "reqs": [ "bootloader", "bootloader_support" ],
             "priv_reqs": [],
@@ -1582,7 +2182,11 @@
             "alias": "idf::micro-ecc",
             "target": "___idf_micro-ecc",
             "prefix": "idf",
+<<<<<<< HEAD
             "dir": "/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader/subproject/components/micro-ecc",
+=======
+            "dir": "C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader/subproject/components/micro-ecc",
+>>>>>>> myorigin/master
             "lib": "__idf_micro-ecc",
             "reqs": [],
             "priv_reqs": [],

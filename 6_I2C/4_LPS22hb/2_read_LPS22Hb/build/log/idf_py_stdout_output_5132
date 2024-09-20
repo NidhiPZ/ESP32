@@ -1,0 +1,4 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "D:/Nidhi/ESP32/6_I2C/4_LPS22hb/2_read_LPS22Hb/build/CMakeFiles/CMakeOutput.log".

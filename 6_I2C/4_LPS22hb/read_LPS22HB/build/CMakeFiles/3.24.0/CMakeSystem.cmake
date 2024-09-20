@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 set(CMAKE_HOST_SYSTEM "Linux-6.8.0-40-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-40-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/dnk133/esp/v5.3.1/esp-idf/tools/cmake/toolchain-esp32.cmake")
+=======
+set(CMAKE_HOST_SYSTEM "Windows-10.0.19045")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.19045")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
+
+include("C:/Users/DNK133/ESP/v5.3/esp-idf/tools/cmake/toolchain-esp32.cmake")
+>>>>>>> myorigin/master
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

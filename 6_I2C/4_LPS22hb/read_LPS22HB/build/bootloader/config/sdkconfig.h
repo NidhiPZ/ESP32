@@ -1,6 +1,10 @@
 /*
  * Automatically generated file. DO NOT EDIT.
+<<<<<<< HEAD
  * Espressif IoT Development Framework (ESP-IDF) 5.3.1 Configuration Header
+=======
+ * Espressif IoT Development Framework (ESP-IDF) 5.3.0 Configuration Header
+>>>>>>> myorigin/master
  */
 #pragma once
 #define CONFIG_SOC_BROWNOUT_RESET_SUPPORTED "Not determined"
@@ -175,7 +179,11 @@
 #define CONFIG_SOC_TIMER_GROUP_SUPPORT_APB 1
 #define CONFIG_SOC_TOUCH_SENSOR_VERSION 1
 #define CONFIG_SOC_TOUCH_SENSOR_NUM 10
+<<<<<<< HEAD
 #define CONFIG_SOC_TOUCH_SAMPLE_CFG_NUM 1
+=======
+#define CONFIG_SOC_TOUCH_SAMPLER_NUM 1
+>>>>>>> myorigin/master
 #define CONFIG_SOC_TWAI_CONTROLLER_NUM 1
 #define CONFIG_SOC_TWAI_BRP_MIN 2
 #define CONFIG_SOC_TWAI_CLK_SUPPORT_APB 1
