@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-cmd='/home/dnk133/.espressif/tools/cmake/3.24.0/bin/cmake;-DSDKCONFIG=/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/sdkconfig;-DIDF_PATH=/home/dnk133/esp/v5.3.1/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/dnk133/.espressif/python_env/idf5.3_py3.10_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/dnk133/esp/v5.3.1/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=/home/dnk133/Desktop/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB;-DIGNORE_EXTRA_COMPONENT=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
-=======
-cmd='C:/Users/DNK133/.espressif/tools/cmake/3.24.0/bin/cmake.exe;-DSDKCONFIG=D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB/sdkconfig;-DIDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=C:/Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;-DEXTRA_COMPONENT_DIRS=C:/Users/DNK133/ESP/v5.3/esp-idf/components/bootloader;-DPROJECT_SOURCE_DIR=D:/Nidhi/ESP32/6_I2C/4_LPS22hb/read_LPS22HB;-DIGNORE_EXTRA_COMPONENT=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
->>>>>>> myorigin/master
