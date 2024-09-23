@@ -42,7 +42,8 @@ esp_err_t lps22hb_who_am_i(void)
     if (ret == ESP_OK && who_am_i == LPS22HB_WHO_AM_I_RESPONSE) {
         ESP_LOGI(TAG, "WHO_AM_I check passed.");
         return ESP_OK;
-    } else {
+    } 
+    else {
         ESP_LOGE(TAG, "WHO_AM_I check failed. Expected 0xB1, got 0x%02X", who_am_i);
         return ESP_FAIL;
     }
@@ -58,15 +59,35 @@ esp_err_t lps22hb_init(void)
 esp_err_t lps22hb_read_pressure(float *pressure)
 {
     uint8_t data[3];
-    esp_err_t ret = i2c_read(0x28, data, 3);  // Pressure register
+    esp_err_t ret = i2c_read(0x28, data, 3);  // Auto-increment address (0x80) for reading pressure
 
     if (ret == ESP_OK) {
         int32_t raw_pressure = (int32_t)((data[2] << 16) | (data[1] << 8) | data[0]);
         *pressure = raw_pressure / 4096.0;  // Convert to hPa
-        ESP_LOGI(TAG, "Pressure: %.2f hPa", *pressure);
-    } else {
+        // ESP_LOGI(TAG, "Pressure: %.2f hPa", *pressure);
+    } 
+    else {
         ESP_LOGE(TAG, "Failed to read pressure.");
     }
 
+    return ret;
+}
+
+// Read temperature from LPS22HB
+esp_err_t lps22hb_read_temperature(float *temperature)
+{
+    uint8_t data[2];  // Buffer to store raw temperature data
+    esp_err_t ret = i2c_read(0x2B, data, 2);  // Auto-increment address (0x80) for reading temperature
+
+    if (ret == ESP_OK) 
+    {
+        int16_t raw_temperature = (int16_t)((data[1] << 8) | data[0]);
+        *temperature = raw_temperature / 100.0;  // Convert to Celsius
+        // ESP_LOGI(TAG, "Temperature:  %.2f °C", *temperature);
+    } else 
+    {
+        ESP_LOGE(TAG, "Failed to read temperature.");
+    }
+    
     return ret;
 }

@@ -13,8 +13,5 @@
     "idf.port": "/dev/ttyUSB0",
     "idf.pythonBinPath": "/home/dnk133/.espressif/python_env/idf5.3_py3.10_env/bin/python",
     "idf.toolsPath": "/home/dnk133/.espressif",
-    "idf.flashType": "UART",
-    "files.associations": {
-        "timer.h": "c"
-    }
+    "idf.flashType": "UART"
 }
