@@ -29,7 +29,8 @@ esp_err_t i2c_init(void) {
         .master.clk_speed = I2C_MASTER_FREQ_HZ
     };
     if (i2c_param_config(I2C_NUM_0, &conf) != ESP_OK ||
-        i2c_driver_install(I2C_NUM_0, I2C_MODE_MASTER, 0, 0, 0) != ESP_OK) {
+        i2c_driver_install(I2C_NUM_0, I2C_MODE_MASTER, 0, 0, 0) != ESP_OK) 
+        {
         ESP_LOGE(TAG, "I2C initialization failed");
         return ESP_FAIL;
     }
@@ -38,17 +39,20 @@ esp_err_t i2c_init(void) {
 }
 
 // Sensor reading function
-void read_sensor(void) {
+void read_sensor(void) 
+{
     float pressure, temperature;
     if (lps22hb_read_pressure(&pressure) == ESP_OK && lps22hb_read_temperature(&temperature) == ESP_OK) {
         ESP_LOGI(TAG, "Pressure: %.2f hPa, Temperature: %.2f °C", pressure, temperature);
-    } else {
+    } 
+    else {
         ESP_LOGE(TAG, "Failed to read sensor data.");
     }
 }
 
 // Timer ISR callback
-void IRAM_ATTR timer_group_isr(void *param) {
+void IRAM_ATTR timer_group_isr(void *param)
+{
     timer_group_clr_intr_status_in_isr(TIMER_GROUP_0, TIMER_0);
     vTaskNotifyGiveFromISR(sensor_task_handle, NULL);
     timer_group_enable_alarm_in_isr(TIMER_GROUP_0, TIMER_0);
