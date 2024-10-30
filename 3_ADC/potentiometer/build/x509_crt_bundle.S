@@ -1,4 +1,4 @@
-/* * Data converted from D:/Nidhi/ESP32/3_ADC/potentiometer/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/dnk133/Desktop/Nidhi/ESP32/3_ADC/potentiometer/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

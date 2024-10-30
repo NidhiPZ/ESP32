@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/CMakeFiles/bootloader
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/CMakeFiles/bootloader.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/CMakeFiles/bootloader-complete.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/dnk133/Desktop/Nidhi/ESP32/11_WIFI/smart_conf_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
